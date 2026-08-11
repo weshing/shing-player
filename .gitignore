@@ -1,0 +1,13 @@
+# macOS
+.DS_Store
+
+# 临时文件
+*.swp
+*~
+
+# 脚本运行日志
+logs/
+
+# Python
+__pycache__/
+*.pyc
