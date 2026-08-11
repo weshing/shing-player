@@ -455,11 +455,11 @@
                 "album": "",
                 "url": "static/4701-由它去/由它去.mp3",
                 "pic": "static/4701-由它去/由它去.png",
-                "lyric": "",
+                "lyric": "static/4701-由它去/由它去.lrc",
                 "source": "local",
                 "url_id": "66323d17249827f992d37d3b951f5429",
                 "pic_id": "66323d17249827f992d37d3b951f5429",
-                "lyric_id": ""
+                "lyric_id": "66323d17249827f992d37d3b951f5429"
             },
             {
                 "id": "8aee01c6409b1f71cbad25c70d04871f",
@@ -468,11 +468,11 @@
                 "album": "",
                 "url": "static/4702-只是错觉/只是错觉.mp3",
                 "pic": "static/4702-只是错觉/只是错觉.png",
-                "lyric": "",
+                "lyric": "static/4702-只是错觉/只是错觉.lrc",
                 "source": "local",
                 "url_id": "8aee01c6409b1f71cbad25c70d04871f",
                 "pic_id": "8aee01c6409b1f71cbad25c70d04871f",
-                "lyric_id": ""
+                "lyric_id": "8aee01c6409b1f71cbad25c70d04871f"
             }
         ]
     }
