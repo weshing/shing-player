@@ -31,9 +31,6 @@
     <!-- 引入 Bootstrap CSS -->
     <!-- <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"> -->
 
-    <!-- 伪 BasicAuth 登录模块样式 -->
-    <link rel="stylesheet" type="text/css" href="css/login.css">
-
     <!-- 播放器样式表文件 -->
     <link rel="stylesheet" type="text/css" href="css/player.css">
 
@@ -49,24 +46,7 @@
 
 <body>
 
-    <div id="loginPanel" class="login-panel-content">
-        <form id="loginForm">
-            <div class="form-group">
-                <label for="username"><b>Username：</b></label>
-                <input type="text" class="login-input" id="username" name="username">
-            </div>
-            <br/>
-            <div class="form-group">
-                <label for="password"><b>Password：</b></label>
-                <input type="password" class="login-input" id="password" name="password">
-            </div>
-            <br/>
-            <button onclick="checkAuthentication(event)" class="login-button">登 录</button>
-        </form>
-    </div>
-
-
-    <div id="musicContent" style="display: none;">
+    <div id="musicContent">
 
         <div id="blur-img"></div>
 
@@ -188,9 +168,6 @@
         <!-- 各类统计代码都放在这里…… -->
 
     </span>
-
-    <!-- 伪 BasicAuth 登录模块 -->
-    <script src="js/login.js"></script>
 </body>
 
 </html>
