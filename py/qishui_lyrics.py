@@ -36,12 +36,13 @@ def fetch_lyrics(url):
 
     # 递归查找歌词
     def find_lyrics(obj, depth=0):
-        if depth > 10:
+        if depth > 40:
             return None
         if isinstance(obj, dict):
-            if 'lyrics' in obj:
+            # 优先命中 "lyrics" 容器（其内含 sentences）
+            if 'lyrics' in obj and isinstance(obj['lyrics'], dict) and 'sentences' in obj['lyrics']:
                 return obj['lyrics']
-            if 'sentences' in obj:
+            if 'sentences' in obj and isinstance(obj['sentences'], list):
                 return obj
             for v in obj.values():
                 result = find_lyrics(v, depth + 1)
