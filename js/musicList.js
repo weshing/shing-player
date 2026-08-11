@@ -116,5 +116,16 @@ var musicList = [
         creatorAvatar: "EXP",      // 列表创建者头像(暂时没用到，可空)
         item: [                 // 这里面放歌曲（除非调试，否则这里不要手动添加，不然不会自动加载 music_list_*.json）
         ]
+    },
+    // 剪辑版列表
+    {
+        id: "9529",
+        name: "剪辑版",        // 播放列表名字
+        githubAPI: "static/music_list_clip.json", // 剪辑版列表数据文件
+        cover: "images/album.png", // 播放列表封面图像
+        creatorName: "EXP",        // 列表创建者名字(暂时没用到，可空)
+        creatorAvatar: "EXP",      // 列表创建者头像(暂时没用到，可空)
+        item: [                 // 这里面放歌曲（除非调试，否则这里不要手动添加，不然不会自动加载 music_list_*.json）
+        ]
     }
 ];

@@ -95,8 +95,8 @@ $(function () {
                 loadList(5);
                 break;
 
-            case "playing": // 正在播放
-                loadList(1); // 显示正在播放列表
+            case "clip":    // 剪辑版列表
+                loadList(6);
                 break;
 
             case "sheet":   // 播放列表
@@ -974,14 +974,14 @@ function dataBox(choose) {
             }
             $("#main-list").fadeIn();
             $("#sheet").fadeOut();
-            if (rem.dislist == 1 || rem.dislist == rem.playlist) {  // 正在播放
-                $(".btn[data-action='playing']").addClass('active');
-            } else if (rem.dislist == 0) {  // 搜索
+            if (rem.dislist == 0) {  // 搜索
                 $(".btn[data-action='search']").addClass('active');
             } else if (rem.dislist == 4) {  // 原创音乐
                 $(".btn[data-action='song']").addClass('active');
             } else if (rem.dislist == 5) {  // 伴奏
                 $(".btn[data-action='bgm']").addClass('active');
+            } else if (rem.dislist == 6) {  // 剪辑版
+                $(".btn[data-action='clip']").addClass('active');
             }
             // 界面切换后刷新进度条
             refreshProgressBars();

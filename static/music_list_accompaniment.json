@@ -7,19 +7,6 @@
         "creatorAvatar": "images/avatar.jpg",
         "item": [
             {
-                "id": "89f5658bec981b15def9c0850eb73124",
-                "name": "三道茶（主歌）",
-                "artist": "",
-                "album": "",
-                "url": "static/16-三道茶/三道茶（主歌）.wav",
-                "pic": "",
-                "lyric": "",
-                "source": "local",
-                "url_id": "89f5658bec981b15def9c0850eb73124",
-                "pic_id": "",
-                "lyric_id": ""
-            },
-            {
                 "id": "fe5fdeb2e99ebb68f1b770fe6480d529",
                 "name": "三道茶（前奏）",
                 "artist": "",
@@ -29,32 +16,6 @@
                 "lyric": "",
                 "source": "local",
                 "url_id": "fe5fdeb2e99ebb68f1b770fe6480d529",
-                "pic_id": "",
-                "lyric_id": ""
-            },
-            {
-                "id": "aa14ce7185d29f1ea816e9521ba8d3d4",
-                "name": "三道茶（副歌）",
-                "artist": "",
-                "album": "",
-                "url": "static/16-三道茶/三道茶（副歌）.wav",
-                "pic": "",
-                "lyric": "",
-                "source": "local",
-                "url_id": "aa14ce7185d29f1ea816e9521ba8d3d4",
-                "pic_id": "",
-                "lyric_id": ""
-            },
-            {
-                "id": "e407557538d9a32f65215eea727e7a0b",
-                "name": "认了一半（剪辑版）",
-                "artist": "",
-                "album": "",
-                "url": "static/36-认了一半/认了一半（剪辑版）.wav",
-                "pic": "",
-                "lyric": "",
-                "source": "local",
-                "url_id": "e407557538d9a32f65215eea727e7a0b",
                 "pic_id": "",
                 "lyric_id": ""
             },
@@ -263,6 +224,19 @@
                 "lyric": "",
                 "source": "local",
                 "url_id": "3a9c69946b12f36800c0368c5025c2ea",
+                "pic_id": "",
+                "lyric_id": ""
+            },
+            {
+                "id": "5914e904a07f07145a1cd0d00c751a7d",
+                "name": "由它去（尾奏）",
+                "artist": "",
+                "album": "",
+                "url": "static/4701-由它去/由它去（尾奏）.wav",
+                "pic": "",
+                "lyric": "",
+                "source": "local",
+                "url_id": "5914e904a07f07145a1cd0d00c751a7d",
                 "pic_id": "",
                 "lyric_id": ""
             },

@@ -32,7 +32,8 @@ MUSIC_LIST_JS = "js/player.js"
 MUSIC_SUFFIXES = [ ".mp3", ".wma", ".m4a", ".aac", ".ogg", ".flac", ".wav" ]
 LYRIC_SUFFIX = ".lrc"
 PIC_SUFFIXES = [ ".jpg", ".jpeg", ".png", ".PNG", ".JPG", ".JPEG" ]
-BGM_KEYWORDS = [ "伴奏", "主歌", "前奏", "副歌", "间奏", "尾奏", "剪辑版" ]
+BGM_KEYWORDS = [ "伴奏", "前奏", "尾奏", "间奏" ]
+CLIP_KEYWORDS = [ "主歌", "副歌", "剪辑版" ]
 
 
 def args() :
@@ -72,7 +73,15 @@ def main(args) :
         creatorName="EXP",
         creatorAvatar="images/avatar.jpg"
     )
-    log.info(f"开始生成歌单：【{musiclist.name}】与【{bgmlist.name}】")
+    # 创建剪辑版列表
+    cliplist = MusicList(
+        id="9529",
+        name="剪辑版",
+        cover="images/album.png",
+        creatorName="EXP",
+        creatorAvatar="images/avatar.jpg"
+    )
+    log.info(f"开始生成歌单：【{musiclist.name}】、【{bgmlist.name}】与【{cliplist.name}】")
 
     # 先构建"同名 mp3"集合：{目录: {文件名主干, ...}}
     # 用于规则：同一目录下若存在同名 mp3，则其余格式（wav/m4a等）视为备份，不进播放列表
@@ -111,8 +120,9 @@ def main(args) :
             rel_path = os.path.relpath(absolute_path, WORK_DIR).replace("\\", "/")
             rel_dir = os.path.dirname(rel_path)
 
-            # 判断属于歌曲列表还是伴奏列表（依据文件名中的关键词）
+            # 判断列表归属：伴奏（纯伴奏/前奏/间奏/尾奏）→ 伴奏，片段（主歌/副歌/剪辑版）→ 剪辑版，其余 → 歌曲
             is_bgm = any(kw in file for kw in BGM_KEYWORDS)
+            is_clip = any(kw in file for kw in CLIP_KEYWORDS)
 
             lyric_path = f"{rel_dir}/{music_name}{LYRIC_SUFFIX}"
             pic_path = ""
@@ -147,14 +157,17 @@ def main(args) :
             )
             if is_bgm :
                 bgmlist.add(music)
+            elif is_clip :
+                cliplist.add(music)
             else :
                 musiclist.add(music)
 
     del_music_lists()
     musiclist.save_to_file(MUSIC_LIST % "songs")
     bgmlist.save_to_file(MUSIC_LIST % "accompaniment")
+    cliplist.save_to_file(MUSIC_LIST % "clip")
     to_js()
-    log.info(f"完成，共收录 歌曲 {musiclist.size()} 首、伴奏 {bgmlist.size()} 首")
+    log.info(f"完成，共收录 歌曲 {musiclist.size()} 首、伴奏 {bgmlist.size()} 首、剪辑版 {cliplist.size()} 首")
 
 
 def calculate_md5(file_path):
