@@ -68,7 +68,7 @@ function ajaxSearch() {
                     url: null   // mp3链接
                 };
                 musicList[0].item.push(tempItem);   // 保存到搜索结果临时列表中
-                addItem(no, tempItem.name, tempItem.artist, tempItem.album);  // 在前端显示
+                addItem(no, tempItem.name, tempItem.platform || [], tempItem.update || '');  // 在前端显示
             }
 
             rem.dislist = 0;    // 当前显示的是搜索列表
@@ -256,6 +256,8 @@ function loadLocalMusicList(lid, id, callback) {
                     name: jsonData.item[i].name,  // 音乐名字
                     artist: jsonData.item[i].artist, // 艺术家名字
                     album: jsonData.item[i].album,    // 专辑名字
+                    platform: jsonData.item[i].platform || [],  // 平台标签（汽水/视频号）
+                    update: jsonData.item[i].update || "",      // 更新日期（YYYY.MM.DD）
                     source: jsonData.item[i].source,     // 音乐来源
                     url_id: jsonData.item[i].url_id,  // 链接ID
                     pic_id: jsonData.item[i].pic_id,  // 封面ID

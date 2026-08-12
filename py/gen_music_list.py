@@ -9,9 +9,14 @@
 #   python ./py/gen_music_list.py -i {ignore_dir_keyword1,ignore_dir_keyword2,ignore_dir_keyword3,...}
 # --------------------------------------------
 # 分列表规则：
-#   文件名含“伴奏/主歌/前奏/副歌/间奏/尾奏/剪辑版”等关键词 → 伴奏列表（accompaniment）
+#   文件名含“伴奏/前奏/间奏/尾奏”等关键词 → 伴奏列表（accompaniment）
+#   文件名含“主歌/副歌/剪辑版”等关键词 → 剪辑版列表（clip）
 #   其余 → 歌曲列表（songs）
-# 分别生成 static/music_list_songs.json 与 static/music_list_accompaniment.json
+# 分别生成 static/music_list_songs.json、static/music_list_accompaniment.json 与 static/music_list_clip.json
+# 平台标签：文件名末尾形如 “-汽水”“-视频号”（可多个）会被剥离展示，作为 platform 标签；
+#           纯歌曲文件不附加平台标签。
+# 更新日期：读取 static/song_meta.json（键为歌曲显示名，值为 YYYY-MM-DD），
+#           生成时格式化为 YYYY.MM.DD 写入 update 字段；无记录则为空。
 
 
 import argparse
@@ -34,6 +39,10 @@ LYRIC_SUFFIX = ".lrc"
 PIC_SUFFIXES = [ ".jpg", ".jpeg", ".png", ".PNG", ".JPG", ".JPEG" ]
 BGM_KEYWORDS = [ "伴奏", "前奏", "尾奏", "间奏" ]
 CLIP_KEYWORDS = [ "主歌", "副歌", "剪辑版" ]
+# 平台标签后缀：文件名末尾附加（可叠加多个），显示时会剥离并作为 platform 标签
+PLATFORM_SUFFIXES = [ "-汽水", "-视频号" ]
+# 歌曲更新日期元数据文件：{显示名: "YYYY-MM-DD"}
+SONG_META = f"{MUSIC_DIR}/song_meta.json"
 
 
 def args() :
@@ -56,6 +65,15 @@ def main(args) :
         ignores = [x.strip() for x in args.ignores.split(',')]
     else :
         ignores = []
+
+    # 读取歌曲更新日期元数据 {显示名: "YYYY-MM-DD"}
+    song_meta = {}
+    if os.path.exists(SONG_META) :
+        with open(SONG_META, 'r', encoding=DEFAULT_ENCODING) as f :
+            try:
+                song_meta = json.load(f)
+            except Exception as e:
+                log.error(f"读取 {SONG_META} 失败：{e}，将忽略更新日期")
 
     # 创建歌曲列表
     musiclist = MusicList(
@@ -116,6 +134,9 @@ def main(args) :
                 log.warn(f"存在同名 MP3，跳过备份文件： {file}")
                 continue
 
+            # 剥离末尾平台标签后缀（可多个，如 “-汽水-视频号”），得到显示名与平台列表
+            display_name, platforms = split_platform(music_name)
+
             absolute_path = os.path.join(root, file)
             rel_path = os.path.relpath(absolute_path, WORK_DIR).replace("\\", "/")
             rel_dir = os.path.dirname(rel_path)
@@ -148,12 +169,14 @@ def main(args) :
             # 创建 Music 对象
             music = Music(
                 id=calculate_md5(absolute_path),
-                name=music_name,
+                name=display_name,
                 artist=artist,
                 album=album,
                 pic=pic_path,
                 url=rel_path,
-                lyric=lyric_path
+                lyric=lyric_path,
+                platform=platforms,
+                update=format_update(song_meta.get(display_name, ""))
             )
             if is_bgm :
                 bgmlist.add(music)
@@ -170,10 +193,35 @@ def main(args) :
     log.info(f"完成，共收录 歌曲 {musiclist.size()} 首、伴奏 {bgmlist.size()} 首、剪辑版 {cliplist.size()} 首")
 
 
+def split_platform(stem):
+    """从文件主干末尾剥离平台标签后缀（可多个，如“-汽水-视频号”）。
+
+    返回 (显示名, 平台标签列表)，如 ("只是错觉（间奏）", ["汽水", "视频号"])。
+    """
+    platforms = []
+    rest = stem
+    while True:
+        matched = None
+        for sfx in PLATFORM_SUFFIXES:
+            if rest.endswith(sfx):
+                matched = sfx
+                break
+        if matched is None:
+            break
+        platforms.insert(0, matched.lstrip("-"))
+        rest = rest[: -len(matched)]
+    return rest, platforms
+
+
+def format_update(date_str):
+    """把元数据里的 YYYY-MM-DD 格式化为界面展示的 YYYY.MM.DD；空值原样返回。"""
+    if not date_str:
+        return ""
+    return date_str.replace("-", ".")
+
+
 def calculate_md5(file_path):
     return hashlib.md5(file_path.encode()).hexdigest().lower()
-
-
 def now() :
     return datetime.now().strftime('%Y%m%d%H%M%S')
 
@@ -228,7 +276,7 @@ class MusicList:
             json.dump([self.__dict__], file, ensure_ascii=False, indent=4)
 
 class Music:
-    def __init__(self, id, name, artist, album, pic, url, lyric, source="local", url_id=None, pic_id=None, lyric_id=None):
+    def __init__(self, id, name, artist, album, pic, url, lyric, platform=None, update="", source="local", url_id=None, pic_id=None, lyric_id=None):
         self.id = id
         self.name = name
         self.artist = artist
@@ -236,6 +284,8 @@ class Music:
         self.url = url
         self.pic = pic
         self.lyric = lyric
+        self.platform = platform if platform else []
+        self.update = update
         self.source = source
         self.url_id = "" if not url else id
         self.pic_id = "" if not pic else id

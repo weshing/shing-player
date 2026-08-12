@@ -339,9 +339,15 @@ $(function () {
 // 展现系统列表中任意首歌的歌曲信息
 function musicInfo(list, index) {
     var music = musicList[list].item[index];
+    var tags = '';
+    if (music.platform && music.platform.length) {
+        for (var i = 0; i < music.platform.length; i++) {
+            tags += '<span class="platform-tag">' + music.platform[i] + '</span>';
+        }
+    }
     var tempStr = '<span class="info-title">歌名：</span>' + music.name +
-        '<br><span class="info-title">歌手：</span>' + music.artist +
-        '<br><span class="info-title">专辑：</span>' + music.album;
+        '<br><span class="info-title">平台：</span>' + (tags || '-') +
+        '<br><span class="info-title">更新日期：</span>' + (music.update || '-');
 
     if (list == rem.playlist && index == rem.playid) {   // 当前正在播放这首歌，那么还可以顺便获取一下时长。。
         tempStr += '<br><span class="info-title">时长：</span>' + formatTime(rem.audio[0].duration);
@@ -482,7 +488,7 @@ function download(music) {
         }
         
         // 构建文件名
-        var fileName = music.name + ' - ' + music.artist + '.mp3';
+        var fileName = music.name + '.mp3';
         // 清理文件名中的非法字符
         fileName = fileName.replace(/[<>:"/\\|?*]/g, '_');
         
@@ -667,7 +673,7 @@ function ajaxShare(music) {
         return;
     }
 
-    var tmpHtml = '<p>' + music.artist + ' - ' + music.name + ' 的外链地址为：</p>' +
+    var tmpHtml = '<p>' + music.name + ' 的外链地址为：</p>' +
         '<input class="share-url" onmouseover="this.focus();this.select()" value="' + music.url + '">' +
         '<p class="share-tips">* 获取到的音乐外链有效期较短，请按需使用。</p>';
 
@@ -761,7 +767,7 @@ function loadList(list) {
         for (var i = 0; i < musicList[list].item.length; i++) {
             var tmpMusic = musicList[list].item[i];
 
-            addItem(i + 1, tmpMusic.name, tmpMusic.artist, tmpMusic.album);
+            addItem(i + 1, tmpMusic.name, tmpMusic.platform, tmpMusic.update);
 
             // 音乐链接均有有效期限制,重新显示列表时清空处理
             // if(list == 1 || list == 2) tmpMusic.url = "";
@@ -809,10 +815,10 @@ function listToTop() {
 function addListhead() {
     var html = '<div class="list-item list-head">' +
         '    <span class="music-album">' +
-        '        专辑' +
+        '        更新日期' +
         '    </span>' +
         '    <span class="auth-name">' +
-        '        歌手' +
+        '        平台' +
         '    </span>' +
         '    <span class="music-name">' +
         '        歌曲' +
@@ -822,13 +828,21 @@ function addListhead() {
 }
 
 // 列表中新增一项
-// 参数：编号、名字、歌手、专辑
-function addItem(no, name, auth, album) {
+// 参数：编号、名字、平台标签数组、更新日期
+function addItem(no, name, platform, update) {
+    var tags = '';
+    if (platform && platform.length) {
+        tags = '<span class="platform-tags">';
+        for (var i = 0; i < platform.length; i++) {
+            tags += '<span class="platform-tag">' + platform[i] + '</span>';
+        }
+        tags += '</span>';
+    }
     var html = '<div class="list-item" data-no="' + (no - 1) + '">' +
         '    <span class="list-num">' + no + '</span>' +
         '    <span class="list-mobile-menu"></span>' +
-        '    <span class="music-album">' + album + '</span>' +
-        '    <span class="auth-name">' + auth + '</span>' +
+        '    <span class="music-album">' + (update || '') + '</span>' +
+        '    <span class="auth-name">' + tags + '</span>' +
         '    <span class="music-name">' + name + '</span>' +
         '</div>';
     rem.mainList.append(html);
@@ -1455,7 +1469,7 @@ function enterFullscreenLyric() {
     
     // 更新全屏歌词的歌曲信息
     $(".fullscreen-song-name").text(music.name);
-    $(".fullscreen-song-artist").text(music.artist);
+    $(".fullscreen-song-artist").text(music.platform && music.platform.length ? music.platform.join(' ') : '');
     
     // 复制当前歌词到全屏容器
     var currentLyric = $("#lyric").html();

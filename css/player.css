@@ -346,6 +346,26 @@ body {
     overflow: hidden;
     text-overflow: ellipsis;
 }
+/* 平台标签组 */
+.platform-tags {
+    display: inline-block;
+    height: 100%;
+    line-height: 50px;
+    white-space: nowrap;
+}
+/* 单个平台标签（汽水 / 视频号） */
+.platform-tag {
+    display: inline-block;
+    margin-left: 4px;
+    padding: 0 8px;
+    font-size: 12px;
+    line-height: 20px;
+    color: rgba(225,225,225,.9);
+    background-color: rgba(150,150,150,.18);
+    border: 1px solid rgba(150,150,150,.35);
+    border-radius: 10px;
+    vertical-align: middle;
+}
 /* 移动端的菜单图标 */
 .list-mobile-menu {
     display: none;

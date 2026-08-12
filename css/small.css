@@ -135,15 +135,24 @@
 
 /* 小于 620px 采用这个样式 */
 @media screen and (max-width: 620px) {
-    /*专辑信息不显示*/
+    /*更新日期（原专辑列）保留显示，收窄宽度*/
     .music-album {
-        display: none;
+        display: block;
+        width: 90px;
+        margin-right: 30px;
     }
-    /*歌手名字*/
+    /*平台标签列*/
     .auth-name {
         width: 35%;
         padding-right: 30px;
         box-sizing: border-box;
+    }
+    /*平台标签换行限制*/
+    .platform-tags {
+        line-height: 30px;
+    }
+    .platform-tag {
+        margin-top: 10px;
     }
     /*音乐名字拉长*/
     .music-name {
