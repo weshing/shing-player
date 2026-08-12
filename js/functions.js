@@ -340,7 +340,15 @@ $(function () {
 function musicInfo(list, index) {
     var music = musicList[list].item[index];
     var tags = '';
-    if (music.platform && music.platform.length) {
+    if (list == 4) {
+        // 原创音乐：显示四个平台 logo 图片
+        tags = '<span class="platform-tags platform-logos">' +
+            '<img class="platform-logo" src="images/platform/qishui.png" title="汽水音乐">' +
+            '<img class="platform-logo" src="images/platform/qqmusic.png" title="QQ音乐">' +
+            '<img class="platform-logo" src="images/platform/kugou.png" title="酷狗音乐">' +
+            '<img class="platform-logo" src="images/platform/kuwo.png" title="酷我音乐">' +
+            '</span>';
+    } else if (music.platform && music.platform.length) {
         for (var i = 0; i < music.platform.length; i++) {
             tags += '<span class="platform-tag">' + music.platform[i] + '</span>';
         }
@@ -831,7 +839,15 @@ function addListhead() {
 // 参数：编号、名字、平台标签数组、更新日期
 function addItem(no, name, platform, update) {
     var tags = '';
-    if (platform && platform.length) {
+    if (rem.dislist == 4) {
+        // 原创音乐列表：默认展示四个平台的 logo 图片
+        tags = '<span class="platform-tags platform-logos">' +
+            '<img class="platform-logo" src="images/platform/qishui.png" title="汽水音乐">' +
+            '<img class="platform-logo" src="images/platform/qqmusic.png" title="QQ音乐">' +
+            '<img class="platform-logo" src="images/platform/kugou.png" title="酷狗音乐">' +
+            '<img class="platform-logo" src="images/platform/kuwo.png" title="酷我音乐">' +
+            '</span>';
+    } else if (platform && platform.length) {
         tags = '<span class="platform-tags">';
         for (var i = 0; i < platform.length; i++) {
             tags += '<span class="platform-tag">' + platform[i] + '</span>';

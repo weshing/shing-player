@@ -154,6 +154,15 @@
     .platform-tag {
         margin-top: 10px;
     }
+    /*原创音乐平台 logo 组（移动端）*/
+    .platform-logos {
+        line-height: 30px;
+    }
+    .platform-logo {
+        width: 18px;
+        height: 18px;
+        margin-top: 8px;
+    }
     /*音乐名字拉长*/
     .music-name {
         margin-right: 35%;

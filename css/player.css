@@ -366,6 +366,19 @@ body {
     border-radius: 10px;
     vertical-align: middle;
 }
+/* 原创音乐列表的平台 logo 图片组 */
+.platform-logos {
+    line-height: 50px;
+}
+.platform-logo {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+    border-radius: 5px;
+    vertical-align: middle;
+    object-fit: cover;
+}
 /* 移动端的菜单图标 */
 .list-mobile-menu {
     display: none;
