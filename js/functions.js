@@ -864,12 +864,16 @@ function platformLogosHtml(platforms) {
     return h;
 }
 
-// 把完整更新日期（YYYY.MM.DD）转为列表用的短格式（MM.DD），非日期格式原样返回
+// 把完整更新日期（YYYY.MM.DD）转为距今天数（如 3 day / 15 day），每天自动重新计算
 function shortUpdate(update) {
     if (!update) return '';
-    var m = String(update).match(/^\d{4}\.(\d{1,2})\.(\d{1,2})$/);
-    if (m) return m[1] + '.' + m[2];
-    return update;
+    var m = String(update).match(/^(\d{4})\.(\d{1,2})\.(\d{1,2})$/);
+    if (!m) return update;
+    var then = new Date(Number(m[1]), Number(m[2]) - 1, Number(m[3]));
+    var now = new Date();
+    var today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+    var days = Math.round((today - then) / 86400000);
+    return days + ' day';
 }
 
 // 列表中新增一项
