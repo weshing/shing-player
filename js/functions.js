@@ -342,16 +342,9 @@ function musicInfo(list, index) {
     var tags = '';
     if (list == 4) {
         // 原创音乐：显示四个平台 logo 图片
-        tags = '<span class="platform-tags platform-logos">' +
-            '<img class="platform-logo" src="images/platform/qishui.png" title="汽水音乐">' +
-            '<img class="platform-logo" src="images/platform/qqmusic.png" title="QQ音乐">' +
-            '<img class="platform-logo" src="images/platform/kugou.png" title="酷狗音乐">' +
-            '<img class="platform-logo" src="images/platform/kuwo.png" title="酷我音乐">' +
-            '</span>';
+        tags = platformLogosHtml(SONG_DEFAULT_PLATFORMS);
     } else if (music.platform && music.platform.length) {
-        for (var i = 0; i < music.platform.length; i++) {
-            tags += '<span class="platform-tag">' + music.platform[i] + '</span>';
-        }
+        tags = platformLogosHtml(music.platform);
     }
     var tempStr = '<span class="info-title">歌名：</span>' + music.name +
         '<br><span class="info-title">平台：</span>' + (tags || '-') +
@@ -835,24 +828,43 @@ function addListhead() {
     rem.mainList.append(html);
 }
 
+// 平台名称 -> logo 图片映射
+var PLATFORM_LOGOS = {
+    "汽水": "images/platform/qishui.png",
+    "QQ音乐": "images/platform/qqmusic.png",
+    "酷狗": "images/platform/kugou.png",
+    "酷我音乐": "images/platform/kuwo.png",
+    "抖音": "images/platform/douyin.png",
+    "视频号": "images/platform/shipinhao.png"
+};
+// 原创音乐列表默认展示的四个平台
+var SONG_DEFAULT_PLATFORMS = ["汽水", "QQ音乐", "酷狗", "酷我音乐"];
+
+// 把平台名称数组渲染为 logo 图片组（找不到映射的平台名则回退为文字标签）
+function platformLogosHtml(platforms) {
+    var h = '<span class="platform-tags platform-logos">';
+    for (var i = 0; i < platforms.length; i++) {
+        var name = platforms[i];
+        var logo = PLATFORM_LOGOS[name];
+        if (logo) {
+            h += '<img class="platform-logo" src="' + logo + '" title="' + name + '">';
+        } else {
+            h += '<span class="platform-tag">' + name + '</span>';
+        }
+    }
+    h += '</span>';
+    return h;
+}
+
 // 列表中新增一项
 // 参数：编号、名字、平台标签数组、更新日期
 function addItem(no, name, platform, update) {
     var tags = '';
     if (rem.dislist == 4) {
         // 原创音乐列表：默认展示四个平台的 logo 图片
-        tags = '<span class="platform-tags platform-logos">' +
-            '<img class="platform-logo" src="images/platform/qishui.png" title="汽水音乐">' +
-            '<img class="platform-logo" src="images/platform/qqmusic.png" title="QQ音乐">' +
-            '<img class="platform-logo" src="images/platform/kugou.png" title="酷狗音乐">' +
-            '<img class="platform-logo" src="images/platform/kuwo.png" title="酷我音乐">' +
-            '</span>';
+        tags = platformLogosHtml(SONG_DEFAULT_PLATFORMS);
     } else if (platform && platform.length) {
-        tags = '<span class="platform-tags">';
-        for (var i = 0; i < platform.length; i++) {
-            tags += '<span class="platform-tag">' + platform[i] + '</span>';
-        }
-        tags += '</span>';
+        tags = platformLogosHtml(platform);
     }
     var html = '<div class="list-item" data-no="' + (no - 1) + '">' +
         '    <span class="list-num">' + no + '</span>' +
