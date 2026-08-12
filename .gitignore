@@ -11,3 +11,6 @@ logs/
 # Python
 __pycache__/
 *.pyc
+
+# opencode 会话记录
+playerbot.json
