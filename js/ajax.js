@@ -40,6 +40,7 @@ function ajaxSearch() {
                     return false;
                 }
                 musicList[0].item = [];
+                rem.dislist = 0;    // 当前显示的是搜索列表（先置位，让列表头/表项按搜索列表样式渲染）
                 rem.mainList.html('');   // 清空列表中原有的元素
                 addListhead();      // 加载列表头
             } else {

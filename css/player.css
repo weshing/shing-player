@@ -320,6 +320,17 @@ body {
     -o-user-select: none;
     user-select: none;
 }
+/* 原创音乐列表无更新日期列：歌曲名留白只需给平台列(150px) */
+.no-update-col .music-name {
+    margin-right: 150px;
+}
+/* 伴奏/剪辑版列表平台只有汽水/视频号两个 logo：平台列收窄，歌曲名留白 = 更新日期(150) + 平台(90) */
+.narrow-platform .auth-name {
+    width: 90px;
+}
+.narrow-platform .music-name {
+    margin-right: 240px;
+}
 /* 鼠标滑过时音乐名字被截断 */
 .music-name-cult {
     display: block;

@@ -742,6 +742,11 @@ function loadList(list) {
 
     rem.dislist = list;     // 记录当前显示的列表
 
+    // 列表级布局 class：
+    // 原创音乐列表（dislist==4）不显示更新日期列；伴奏/剪辑版（dislist==5/6）平台列收窄，给歌曲名更多空间
+    $("#main-list").toggleClass("no-update-col", list == 4);
+    $("#main-list").toggleClass("narrow-platform", list == 5 || list == 6);
+
     dataBox("list");    // 在主界面显示出播放列表
 
     // 调试信息输出
@@ -813,11 +818,14 @@ function listToTop() {
 }
 
 // 向列表中加入列表头
+// 原创音乐列表（dislist==4）不含更新日期列，与 addItem 保持一致
 function addListhead() {
+    var showUpdate = (rem.dislist != 4);
     var html = '<div class="list-item list-head">' +
-        '    <span class="music-album">' +
-        '        更新日期' +
-        '    </span>' +
+        (showUpdate ?
+            '    <span class="music-album">' +
+            '        更新日期' +
+            '    </span>' : '') +
         '    <span class="auth-name">' +
         '        平台' +
         '    </span>' +
@@ -858,6 +866,7 @@ function platformLogosHtml(platforms) {
 
 // 列表中新增一项
 // 参数：编号、名字、平台标签数组、更新日期
+// 原创音乐列表（dislist==4）不显示更新日期列（详情里可查看），只留平台与歌曲
 function addItem(no, name, platform, update) {
     var tags = '';
     if (rem.dislist == 4) {
@@ -866,10 +875,11 @@ function addItem(no, name, platform, update) {
     } else if (platform && platform.length) {
         tags = platformLogosHtml(platform);
     }
+    var showUpdate = (rem.dislist != 4);
     var html = '<div class="list-item" data-no="' + (no - 1) + '">' +
         '    <span class="list-num">' + no + '</span>' +
         '    <span class="list-mobile-menu"></span>' +
-        '    <span class="music-album">' + (update || '') + '</span>' +
+        (showUpdate ? '    <span class="music-album">' + (update || '') + '</span>' : '') +
         '    <span class="auth-name">' + tags + '</span>' +
         '    <span class="music-name">' + name + '</span>' +
         '</div>';
