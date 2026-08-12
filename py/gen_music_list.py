@@ -145,6 +145,11 @@ def main(args) :
             is_bgm = any(kw in file for kw in BGM_KEYWORDS)
             is_clip = any(kw in file for kw in CLIP_KEYWORDS)
 
+            # 原创歌曲（非伴奏/剪辑版）的展示名后缀，如“三道茶 - 悟小宝”
+            list_name = display_name
+            if not is_bgm and not is_clip:
+                list_name = f"{display_name} - 悟小宝"
+
             lyric_path = f"{rel_dir}/{music_name}{LYRIC_SUFFIX}"
             pic_path = ""
             for pic_suffix in PIC_SUFFIXES :
@@ -169,7 +174,7 @@ def main(args) :
             # 创建 Music 对象
             music = Music(
                 id=calculate_md5(absolute_path),
-                name=display_name,
+                name=list_name,
                 artist=artist,
                 album=album,
                 pic=pic_path,

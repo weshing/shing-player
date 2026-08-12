@@ -8,11 +8,11 @@
         "item": [
             {
                 "id": "5389db154c0881cde86edc83b157ee9b",
-                "name": "三道茶",
+                "name": "三道茶 - 悟小宝",
                 "artist": "",
                 "album": "",
                 "url": "static/16-三道茶/三道茶.m4a",
-                "pic": "static/16-三道茶/三道茶.PNG",
+                "pic": "static/16-三道茶/三道茶.png",
                 "lyric": "static/16-三道茶/三道茶.lrc",
                 "platform": [],
                 "update": "2026.08.11",
@@ -23,11 +23,11 @@
             },
             {
                 "id": "b82cb08b6d0795a48d55efd843318f97",
-                "name": "拜师那两年",
+                "name": "拜师那两年 - 悟小宝",
                 "artist": "",
                 "album": "",
                 "url": "static/17-拜师那两年/拜师那两年.mp3",
-                "pic": "static/17-拜师那两年/拜师那两年.PNG",
+                "pic": "static/17-拜师那两年/拜师那两年.png",
                 "lyric": "static/17-拜师那两年/拜师那两年.lrc",
                 "platform": [],
                 "update": "2026.08.11",
@@ -38,11 +38,11 @@
             },
             {
                 "id": "e582e1ece898edc7f5845a40f5488617",
-                "name": "风过去就没了",
+                "name": "风过去就没了 - 悟小宝",
                 "artist": "",
                 "album": "",
                 "url": "static/18-风过去就没了/风过去就没了.m4a",
-                "pic": "static/18-风过去就没了/风过去就没了.PNG",
+                "pic": "static/18-风过去就没了/风过去就没了.png",
                 "lyric": "static/18-风过去就没了/风过去就没了.lrc",
                 "platform": [],
                 "update": "2026.08.11",
@@ -53,7 +53,7 @@
             },
             {
                 "id": "071103e83b2775e8c1c387137a65825b",
-                "name": "揣在怀里的话",
+                "name": "揣在怀里的话 - 悟小宝",
                 "artist": "",
                 "album": "",
                 "url": "static/19-揣在怀里的话/揣在怀里的话.mp3",
@@ -68,11 +68,11 @@
             },
             {
                 "id": "f3978b28041952b5c5bf626319b348c3",
-                "name": "玻璃珠",
+                "name": "玻璃珠 - 悟小宝",
                 "artist": "",
                 "album": "",
                 "url": "static/20-玻璃珠/玻璃珠.m4a",
-                "pic": "static/20-玻璃珠/玻璃珠.PNG",
+                "pic": "static/20-玻璃珠/玻璃珠.png",
                 "lyric": "static/20-玻璃珠/玻璃珠.lrc",
                 "platform": [],
                 "update": "2026.08.11",
@@ -83,7 +83,7 @@
             },
             {
                 "id": "6f49475708e8c69189093f8336c2b7ae",
-                "name": "演给谁看",
+                "name": "演给谁看 - 悟小宝",
                 "artist": "",
                 "album": "",
                 "url": "static/21-演给谁看/演给谁看.mp3",
@@ -98,11 +98,11 @@
             },
             {
                 "id": "d285bbc0ba07d2500275d7ce28fc54d8",
-                "name": "无为之前有什么",
+                "name": "无为之前有什么 - 悟小宝",
                 "artist": "",
                 "album": "",
                 "url": "static/22-无为之前有什么/无为之前有什么.mp3",
-                "pic": "static/22-无为之前有什么/无为之前有什么.PNG",
+                "pic": "static/22-无为之前有什么/无为之前有什么.png",
                 "lyric": "static/22-无为之前有什么/无为之前有什么.lrc",
                 "platform": [],
                 "update": "2026.08.11",
@@ -113,11 +113,11 @@
             },
             {
                 "id": "99511d57023f6d0ca74cddd19ab260ff",
-                "name": "水往低处流",
+                "name": "水往低处流 - 悟小宝",
                 "artist": "",
                 "album": "",
                 "url": "static/23-水往低处流/水往低处流.m4a",
-                "pic": "static/23-水往低处流/水往低处流.PNG",
+                "pic": "static/23-水往低处流/水往低处流.png",
                 "lyric": "static/23-水往低处流/水往低处流.lrc",
                 "platform": [],
                 "update": "2026.08.11",
@@ -128,7 +128,7 @@
             },
             {
                 "id": "42375a323cf5333a12dddd1807920f2e",
-                "name": "娃娃的劲儿",
+                "name": "娃娃的劲儿 - 悟小宝",
                 "artist": "",
                 "album": "",
                 "url": "static/24-娃娃的劲儿/娃娃的劲儿.m4a",
@@ -143,7 +143,7 @@
             },
             {
                 "id": "cfa5e5c81d1527b1d9b9dd87014c5958",
-                "name": "不争的人",
+                "name": "不争的人 - 悟小宝",
                 "artist": "",
                 "album": "",
                 "url": "static/25-不争的人/不争的人.m4a",
@@ -158,7 +158,7 @@
             },
             {
                 "id": "b21a2e5ed8b0318cb20edc36e7ccebfc",
-                "name": "守一",
+                "name": "守一 - 悟小宝",
                 "artist": "",
                 "album": "",
                 "url": "static/26-守一/守一.mp3",
@@ -173,7 +173,7 @@
             },
             {
                 "id": "f2daa99681f5aca22ef98677e41ae2ec",
-                "name": "掏空才成器",
+                "name": "掏空才成器 - 悟小宝",
                 "artist": "",
                 "album": "",
                 "url": "static/27-掏空才成器/掏空才成器.mp3",
@@ -188,7 +188,7 @@
             },
             {
                 "id": "d8e2796f996e6875d040100143dbaa82",
-                "name": "跟自己拔河",
+                "name": "跟自己拔河 - 悟小宝",
                 "artist": "",
                 "album": "",
                 "url": "static/28-跟自己拔河/跟自己拔河.mp3",
@@ -203,7 +203,7 @@
             },
             {
                 "id": "747be148134d7592ceeeddcaf4c1332b",
-                "name": "留白的味道",
+                "name": "留白的味道 - 悟小宝",
                 "artist": "",
                 "album": "",
                 "url": "static/29-留白的味道/留白的味道.m4a",
@@ -218,7 +218,7 @@
             },
             {
                 "id": "927b9b03e78fa33baffad4d4e693e5f3",
-                "name": "祸福像秋千",
+                "name": "祸福像秋千 - 悟小宝",
                 "artist": "",
                 "album": "",
                 "url": "static/30-祸福像秋千/祸福像秋千.m4a",
@@ -233,7 +233,7 @@
             },
             {
                 "id": "aac5be9c3366004f78c1b57771f397d7",
-                "name": "不显山露水",
+                "name": "不显山露水 - 悟小宝",
                 "artist": "",
                 "album": "",
                 "url": "static/31-不显山露水/不显山露水.m4a",
@@ -248,7 +248,7 @@
             },
             {
                 "id": "15c302e4988449a0bfebe16fabc660e0",
-                "name": "留白才是大",
+                "name": "留白才是大 - 悟小宝",
                 "artist": "",
                 "album": "",
                 "url": "static/32-留白才是大/留白才是大.mp3",
@@ -263,7 +263,7 @@
             },
             {
                 "id": "c2b8c28f4e2e2d7bd21ccfc46c81b9b6",
-                "name": "天地不偏",
+                "name": "天地不偏 - 悟小宝",
                 "artist": "",
                 "album": "",
                 "url": "static/33-天地不偏/天地不偏.mp3",
@@ -278,7 +278,7 @@
             },
             {
                 "id": "21eb295450f6c8767465b2aad4d3c5e4",
-                "name": "轻轻落下",
+                "name": "轻轻落下 - 悟小宝",
                 "artist": "",
                 "album": "",
                 "url": "static/34-轻轻落下/轻轻落下.mp3",
@@ -293,7 +293,7 @@
             },
             {
                 "id": "dd97c251ba053657bf639fb618ad0313",
-                "name": "你我的界线",
+                "name": "你我的界线 - 悟小宝",
                 "artist": "",
                 "album": "",
                 "url": "static/35-你我的界线/你我的界线.mp3",
@@ -308,7 +308,7 @@
             },
             {
                 "id": "b3eed4ac124ac031495aac93bc83a378",
-                "name": "认了一半",
+                "name": "认了一半 - 悟小宝",
                 "artist": "",
                 "album": "",
                 "url": "static/36-认了一半/认了一半.mp3",
@@ -323,7 +323,7 @@
             },
             {
                 "id": "74a43bb2a5e94dd43cad3a48953e460d",
-                "name": "昆仑在哪里",
+                "name": "昆仑在哪里 - 悟小宝",
                 "artist": "",
                 "album": "",
                 "url": "static/37-昆仑在哪里/昆仑在哪里.mp3",
@@ -338,7 +338,7 @@
             },
             {
                 "id": "908af7b9ec851d0085f265a3ce28497c",
-                "name": "怕执着的人",
+                "name": "怕执着的人 - 悟小宝",
                 "artist": "",
                 "album": "",
                 "url": "static/38-怕执着的人/怕执着的人.mp3",
@@ -353,7 +353,7 @@
             },
             {
                 "id": "85c28c8beed29d1abfc1818df93c2fd5",
-                "name": "还是那条路",
+                "name": "还是那条路 - 悟小宝",
                 "artist": "",
                 "album": "",
                 "url": "static/39-还是那条路/还是那条路.mp3",
@@ -368,7 +368,7 @@
             },
             {
                 "id": "dbd188d9fc7131618e396746a2af5794",
-                "name": "等雾散开",
+                "name": "等雾散开 - 悟小宝",
                 "artist": "",
                 "album": "",
                 "url": "static/40-等雾散开/等雾散开.mp3",
@@ -383,7 +383,7 @@
             },
             {
                 "id": "071497cce771546598350a75af3a5fc2",
-                "name": "做到底",
+                "name": "做到底 - 悟小宝",
                 "artist": "",
                 "album": "",
                 "url": "static/41-做到底/做到底.mp3",
@@ -398,7 +398,7 @@
             },
             {
                 "id": "f26deaf90fec4a4894028505b27ab3c6",
-                "name": "一沙一古城",
+                "name": "一沙一古城 - 悟小宝",
                 "artist": "",
                 "album": "",
                 "url": "static/42-一沙一古城/一沙一古城.mp3",
@@ -413,7 +413,7 @@
             },
             {
                 "id": "724ab30482a1f5b5b502afb0868cf45d",
-                "name": "我不拦它",
+                "name": "我不拦它 - 悟小宝",
                 "artist": "",
                 "album": "",
                 "url": "static/43-我不拦它/我不拦它.mp3",
@@ -428,7 +428,7 @@
             },
             {
                 "id": "a6c187ab8243343498337f7eed92a737",
-                "name": "人心不单向",
+                "name": "人心不单向 - 悟小宝",
                 "artist": "",
                 "album": "",
                 "url": "static/4401-人心不单向/人心不单向.mp3",
@@ -443,7 +443,7 @@
             },
             {
                 "id": "616e58096627adedb7c913b9037daff8",
-                "name": "半勺糖",
+                "name": "半勺糖 - 悟小宝",
                 "artist": "",
                 "album": "",
                 "url": "static/4402-半勺糖/半勺糖.mp3",
@@ -458,7 +458,7 @@
             },
             {
                 "id": "9aa3165c177254551c93ec3a422e5f58",
-                "name": "半块馒头",
+                "name": "半块馒头 - 悟小宝",
                 "artist": "",
                 "album": "",
                 "url": "static/4501-半块馒头/半块馒头.mp3",
@@ -473,7 +473,7 @@
             },
             {
                 "id": "7059a9167358efa486b1082486aff0af",
-                "name": "陪谁走夜路",
+                "name": "陪谁走夜路 - 悟小宝",
                 "artist": "",
                 "album": "",
                 "url": "static/4502-陪谁走夜路/陪谁走夜路.mp3",
@@ -488,7 +488,7 @@
             },
             {
                 "id": "29fccbf3c0d72145cb84a21362f23dcc",
-                "name": "一张素脸",
+                "name": "一张素脸 - 悟小宝",
                 "artist": "",
                 "album": "",
                 "url": "static/4601-一张素脸/一张素脸.mp3",
@@ -503,7 +503,7 @@
             },
             {
                 "id": "f7c3caddd8e866b9839c2e02589a9409",
-                "name": "小算盘",
+                "name": "小算盘 - 悟小宝",
                 "artist": "",
                 "album": "",
                 "url": "static/4602-小算盘/小算盘.mp3",
@@ -518,7 +518,7 @@
             },
             {
                 "id": "66323d17249827f992d37d3b951f5429",
-                "name": "由它去",
+                "name": "由它去 - 悟小宝",
                 "artist": "",
                 "album": "",
                 "url": "static/4701-由它去/由它去.mp3",
@@ -533,7 +533,7 @@
             },
             {
                 "id": "8aee01c6409b1f71cbad25c70d04871f",
-                "name": "只是错觉",
+                "name": "只是错觉 - 悟小宝",
                 "artist": "",
                 "album": "",
                 "url": "static/4702-只是错觉/只是错觉.mp3",
