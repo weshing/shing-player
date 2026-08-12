@@ -864,7 +864,7 @@ function platformLogosHtml(platforms) {
     return h;
 }
 
-// 把完整更新日期（YYYY.MM.DD）转为距今天数（如 3 day / 15 day），每天自动重新计算
+// 把完整更新日期（YYYY.MM.DD）转为距今天数（如 3 day / 15 day），每天自动重新计算；今天显示"今天"
 function shortUpdate(update) {
     if (!update) return '';
     var m = String(update).match(/^(\d{4})\.(\d{1,2})\.(\d{1,2})$/);
@@ -873,6 +873,7 @@ function shortUpdate(update) {
     var now = new Date();
     var today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
     var days = Math.round((today - then) / 86400000);
+    if (days <= 0) return '今天';
     return days + ' day';
 }
 
