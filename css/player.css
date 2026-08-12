@@ -324,15 +324,30 @@ body {
 .no-update-col .music-name {
     margin-right: 150px;
 }
-/* 伴奏/剪辑版列表平台只有汽水/视频号两个 logo：平台列收窄，歌曲名留白 = 更新(60) + 平台(90) */
-.narrow-platform .auth-name {
+/* 伴奏/剪辑版列表的平台+日期合并列：汽水/视频号 各一格（logo + 距今天数） */
+.platform-cell {
+    position: relative;
+    display: block;
     width: 90px;
+    float: right;
+    height: 100%;
+    line-height: 50px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
-.narrow-platform .music-album {
-    width: 60px;
+.platform-cell .platform-logo {
+    margin-left: 0;
+    margin-right: 4px;
 }
+.platform-cell-date {
+    display: inline;
+    font-size: 12px;
+    vertical-align: middle;
+}
+/* 伴奏/剪辑版：歌曲名留白 = 汽水(90) + 视频号(90) */
 .narrow-platform .music-name {
-    margin-right: 150px;
+    margin-right: 180px;
 }
 /* 鼠标滑过时音乐名字被截断 */
 .music-name-cult {

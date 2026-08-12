@@ -17,7 +17,10 @@
                 "platform": [
                     "汽水"
                 ],
-                "update": "2026.08.11",
+                "update": "",
+                "platform_dates": {
+                    "汽水": "2026.08.11"
+                },
                 "source": "local",
                 "url_id": "a63e11b32f7c44cef5b27ca07bcc2324",
                 "pic_id": "",
@@ -34,7 +37,10 @@
                 "platform": [
                     "汽水"
                 ],
-                "update": "2026.08.11",
+                "update": "",
+                "platform_dates": {
+                    "汽水": "2026.08.11"
+                },
                 "source": "local",
                 "url_id": "0b9a8479cf8764c0e72bbcf3ed970a3c",
                 "pic_id": "",
@@ -50,6 +56,7 @@
                 "lyric": "",
                 "platform": [],
                 "update": "2026.08.11",
+                "platform_dates": {},
                 "source": "local",
                 "url_id": "e407557538d9a32f65215eea727e7a0b",
                 "pic_id": "",
@@ -66,7 +73,10 @@
                 "platform": [
                     "汽水"
                 ],
-                "update": "2026.08.13",
+                "update": "",
+                "platform_dates": {
+                    "汽水": "2026.08.13"
+                },
                 "source": "local",
                 "url_id": "eb5339929eb1ad118d996dd37c065407",
                 "pic_id": "",
@@ -83,7 +93,10 @@
                 "platform": [
                     "汽水"
                 ],
-                "update": "2026.08.13",
+                "update": "",
+                "platform_dates": {
+                    "汽水": "2026.08.13"
+                },
                 "source": "local",
                 "url_id": "0b26e147d2c8215802e881736bb264d2",
                 "pic_id": "",
@@ -100,7 +113,10 @@
                 "platform": [
                     "汽水"
                 ],
-                "update": "2026.08.13",
+                "update": "",
+                "platform_dates": {
+                    "汽水": "2026.08.13"
+                },
                 "source": "local",
                 "url_id": "f9df38552bbf3fcbf29ff41327bba0bf",
                 "pic_id": "",

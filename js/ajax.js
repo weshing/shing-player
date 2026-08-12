@@ -259,6 +259,7 @@ function loadLocalMusicList(lid, id, callback) {
                     album: jsonData.item[i].album,    // 专辑名字
                     platform: jsonData.item[i].platform || [],  // 平台标签（汽水/视频号）
                     update: jsonData.item[i].update || "",      // 更新日期（YYYY.MM.DD）
+                    platform_dates: jsonData.item[i].platform_dates || {},  // 按平台更新日期 {平台: YYYY.MM.DD}
                     source: jsonData.item[i].source,     // 音乐来源
                     url_id: jsonData.item[i].url_id,  // 链接ID
                     pic_id: jsonData.item[i].pic_id,  // 封面ID

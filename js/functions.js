@@ -347,8 +347,20 @@ function musicInfo(list, index) {
         tags = platformLogosHtml(music.platform);
     }
     var tempStr = '<span class="info-title">歌名：</span>' + music.name +
-        '<br><span class="info-title">平台：</span>' + (tags || '-') +
-        '<br><span class="info-title">更新日期：</span>' + (music.update || '-');
+        '<br><span class="info-title">平台：</span>' + (tags || '-');
+
+    // 更新日期：优先按平台展示各自完整日期，无平台日期则退回 update 字段
+    var updateStr = '';
+    if (music.platform_dates && Object.keys(music.platform_dates).length) {
+        var pds = [];
+        for (var pdK in music.platform_dates) {
+            pds.push(pdK + ' ' + (music.platform_dates[pdK] || '-'));
+        }
+        updateStr = pds.join('；');
+    } else {
+        updateStr = music.update || '-';
+    }
+    tempStr += '<br><span class="info-title">更新日期：</span>' + updateStr;
 
     if (list == rem.playlist && index == rem.playid) {   // 当前正在播放这首歌，那么还可以顺便获取一下时长。。
         tempStr += '<br><span class="info-title">时长：</span>' + formatTime(rem.audio[0].duration);
@@ -773,7 +785,7 @@ function loadList(list) {
         for (var i = 0; i < musicList[list].item.length; i++) {
             var tmpMusic = musicList[list].item[i];
 
-            addItem(i + 1, tmpMusic.name, tmpMusic.platform, tmpMusic.update);
+            addItem(i + 1, tmpMusic.name, tmpMusic.platform, tmpMusic.update, tmpMusic.platform_dates);
 
             // 音乐链接均有有效期限制,重新显示列表时清空处理
             // if(list == 1 || list == 2) tmpMusic.url = "";
@@ -818,21 +830,45 @@ function listToTop() {
 }
 
 // 向列表中加入列表头
-// 原创音乐列表（dislist==4）不含更新日期列，与 addItem 保持一致
+// 原创音乐列表（dislist==4）不含更新日期列；伴奏/剪辑版（dislist==5/6）平台+日期合并为
+// 汽水/视频号两列（addItem 与 addListhead 保持一致）
 function addListhead() {
-    var showUpdate = (rem.dislist != 4);
-    var html = '<div class="list-item list-head">' +
-        (showUpdate ?
+    var html = '';
+    if (rem.dislist == 5 || rem.dislist == 6) {
+        // 伴奏/剪辑版：固定两列（汽水、视频号），每格 = 平台名
+        html = '<div class="list-item list-head">' +
+            '    <span class="platform-cell platform-cell-qishui">' +
+            '        汽水' +
+            '    </span>' +
+            '    <span class="platform-cell platform-cell-shipinhao">' +
+            '        视频号' +
+            '    </span>' +
+            '    <span class="music-name">' +
+            '        歌曲' +
+            '    </span>' +
+            '</div>';
+    } else if (rem.dislist == 4) {
+        html = '<div class="list-item list-head">' +
+            '    <span class="auth-name">' +
+            '        平台' +
+            '    </span>' +
+            '    <span class="music-name">' +
+            '        歌曲' +
+            '    </span>' +
+            '</div>';
+    } else {
+        html = '<div class="list-item list-head">' +
             '    <span class="music-album">' +
             '        更新' +
-            '    </span>' : '') +
-        '    <span class="auth-name">' +
-        '        平台' +
-        '    </span>' +
-        '    <span class="music-name">' +
-        '        歌曲' +
-        '    </span>' +
-        '</div>';
+            '    </span>' +
+            '    <span class="auth-name">' +
+            '        平台' +
+            '    </span>' +
+            '    <span class="music-name">' +
+            '        歌曲' +
+            '    </span>' +
+            '</div>';
+    }
     rem.mainList.append(html);
 }
 
@@ -877,10 +913,35 @@ function shortUpdate(update) {
     return days + ' day';
 }
 
+// 伴奏/剪辑版列表中单格内容：logo 图片 + 距今天数（当天显示"今天"）
+// 参数：平台名、平台日期（YYYY.MM.DD）；无日期则返回空字符串（整格留白，保持宽度一致）
+function platformDateCellHtml(platform, date) {
+    if (!date) return '';
+    var logo = PLATFORM_LOGOS[platform];
+    var img = logo ? '<img class="platform-logo" src="' + logo + '" title="' + platform + '">'
+        : '<span class="platform-tag">' + platform + '</span>';
+    return img + '<span class="platform-cell-date">' + shortUpdate(date) + '</span>';
+}
+
 // 列表中新增一项
-// 参数：编号、名字、平台标签数组、更新日期
-// 原创音乐列表（dislist==4）不显示更新日期列（详情里可查看），只留平台与歌曲
-function addItem(no, name, platform, update) {
+// 参数：编号、名字、平台标签数组、更新日期、按平台日期映射
+// 原创音乐列表（dislist==4）不显示更新日期列（详情里可查看），只留平台与歌曲；
+// 伴奏/剪辑版（dislist==5/6）平台+日期合并为 汽水/视频号 两列
+function addItem(no, name, platform, update, platformDates) {
+    platformDates = platformDates || {};
+    if (rem.dislist == 5 || rem.dislist == 6) {
+        // 伴奏/剪辑版：固定两列（汽水、视频号），各列 logo + 日期（无该平台则整格留白）
+        var html = '<div class="list-item" data-no="' + (no - 1) + '">' +
+            '    <span class="list-num">' + no + '</span>' +
+            '    <span class="list-mobile-menu"></span>' +
+            '    <span class="platform-cell platform-cell-qishui">' + platformDateCellHtml('汽水', platformDates['汽水']) + '</span>' +
+            '    <span class="platform-cell platform-cell-shipinhao">' + platformDateCellHtml('视频号', platformDates['视频号']) + '</span>' +
+            '    <span class="music-name">' + name + '</span>' +
+            '</div>';
+        rem.mainList.append(html);
+        return;
+    }
+
     var tags = '';
     if (rem.dislist == 4) {
         // 原创音乐列表：默认展示四个平台的 logo 图片

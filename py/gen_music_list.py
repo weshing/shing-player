@@ -15,8 +15,9 @@
 # 分别生成 static/music_list_songs.json、static/music_list_accompaniment.json 与 static/music_list_clip.json
 # 平台标签：文件名末尾形如 “-汽水”“-视频号”（可多个）会被剥离展示，作为 platform 标签；
 #           纯歌曲文件不附加平台标签。
-# 更新日期：读取 static/song_meta.json（键为歌曲显示名，值为 YYYY-MM-DD），
-#           生成时格式化为 YYYY.MM.DD 写入 update 字段；无记录则为空。
+# 更新日期：读取 static/song_meta*.json（键为歌曲显示名，值为 YYYY-MM-DD）：
+#   song_meta.json（原创音乐）、song_meta_qishui.json（汽水）、song_meta_shipinhao.json（视频号）。
+#   生成时格式化为 YYYY.MM.DD 写入 update（原创）或 platform_dates（按平台，映射 {平台: 日期}）。
 
 
 import argparse
@@ -42,7 +43,12 @@ CLIP_KEYWORDS = [ "主歌", "副歌", "剪辑版" ]
 # 平台标签后缀：文件名末尾附加（可叠加多个），显示时会剥离并作为 platform 标签
 PLATFORM_SUFFIXES = [ "-汽水", "-视频号", "-抖音" ]
 # 歌曲更新日期元数据文件：{显示名: "YYYY-MM-DD"}
+# 分为三份：原创音乐 / 汽水 / 视频号
 SONG_META = f"{MUSIC_DIR}/song_meta.json"
+SONG_META_PER_PLATFORM = {
+    "汽水": f"{MUSIC_DIR}/song_meta_qishui.json",
+    "视频号": f"{MUSIC_DIR}/song_meta_shipinhao.json",
+}
 
 
 def args() :
@@ -66,7 +72,7 @@ def main(args) :
     else :
         ignores = []
 
-    # 读取歌曲更新日期元数据 {显示名: "YYYY-MM-DD"}
+    # 读取歌曲更新日期元数据 {显示名: "YYYY-MM-DD"}：原创音乐 + 各平台
     song_meta = {}
     if os.path.exists(SONG_META) :
         with open(SONG_META, 'r', encoding=DEFAULT_ENCODING) as f :
@@ -74,6 +80,17 @@ def main(args) :
                 song_meta = json.load(f)
             except Exception as e:
                 log.error(f"读取 {SONG_META} 失败：{e}，将忽略更新日期")
+
+    platform_meta = {}
+    for platform, path in SONG_META_PER_PLATFORM.items():
+        if os.path.exists(path) :
+            with open(path, 'r', encoding=DEFAULT_ENCODING) as f :
+                try:
+                    platform_meta[platform] = json.load(f)
+                except Exception as e:
+                    log.error(f"读取 {path} 失败：{e}，将忽略该平台更新日期")
+        else:
+            platform_meta[platform] = {}
 
     # 创建歌曲列表
     musiclist = MusicList(
@@ -171,6 +188,13 @@ def main(args) :
                 artist = ""
                 album = ""
 
+            # 平台日期：为每个平台注入其对应 meta 中的更新时间
+            platform_dates = {}
+            for p in platforms:
+                d = platform_meta.get(p, {}).get(display_name, "")
+                if d:
+                    platform_dates[p] = format_update(d)
+
             # 创建 Music 对象
             music = Music(
                 id=calculate_md5(absolute_path),
@@ -181,7 +205,8 @@ def main(args) :
                 url=rel_path,
                 lyric=lyric_path,
                 platform=platforms,
-                update=format_update(song_meta.get(display_name, ""))
+                update=format_update(song_meta.get(display_name, "")),
+                platform_dates=platform_dates
             )
             if is_bgm :
                 bgmlist.add(music)
@@ -281,7 +306,7 @@ class MusicList:
             json.dump([self.__dict__], file, ensure_ascii=False, indent=4)
 
 class Music:
-    def __init__(self, id, name, artist, album, pic, url, lyric, platform=None, update="", source="local", url_id=None, pic_id=None, lyric_id=None):
+    def __init__(self, id, name, artist, album, pic, url, lyric, platform=None, update="", platform_dates=None, source="local", url_id=None, pic_id=None, lyric_id=None):
         self.id = id
         self.name = name
         self.artist = artist
@@ -291,6 +316,7 @@ class Music:
         self.lyric = lyric
         self.platform = platform if platform else []
         self.update = update
+        self.platform_dates = platform_dates if platform_dates else {}
         self.source = source
         self.url_id = "" if not url else id
         self.pic_id = "" if not pic else id

@@ -18,7 +18,11 @@
                     "汽水",
                     "视频号"
                 ],
-                "update": "2026.08.11",
+                "update": "",
+                "platform_dates": {
+                    "汽水": "2026.08.11",
+                    "视频号": "2026.08.11"
+                },
                 "source": "local",
                 "url_id": "01bb35391e2cacbe5ec45355b74f1e0e",
                 "pic_id": "",
@@ -34,6 +38,7 @@
                 "lyric": "",
                 "platform": [],
                 "update": "2026.08.11",
+                "platform_dates": {},
                 "source": "local",
                 "url_id": "7cf50eba8d51a1b4c772aacfd78be9d1",
                 "pic_id": "",
@@ -50,7 +55,10 @@
                 "platform": [
                     "汽水"
                 ],
-                "update": "2026.08.11",
+                "update": "",
+                "platform_dates": {
+                    "汽水": "2026.08.11"
+                },
                 "source": "local",
                 "url_id": "9033f136355a55a99ea9e6380773dd19",
                 "pic_id": "",
@@ -68,7 +76,11 @@
                     "汽水",
                     "视频号"
                 ],
-                "update": "2026.08.11",
+                "update": "",
+                "platform_dates": {
+                    "汽水": "2026.08.11",
+                    "视频号": "2026.08.11"
+                },
                 "source": "local",
                 "url_id": "94c3a43b2a829d01e0154ce630a9be52",
                 "pic_id": "",
@@ -86,7 +98,11 @@
                     "汽水",
                     "视频号"
                 ],
-                "update": "2026.08.11",
+                "update": "",
+                "platform_dates": {
+                    "汽水": "2026.08.11",
+                    "视频号": "2026.08.11"
+                },
                 "source": "local",
                 "url_id": "077f613ce4f5d1b6fd7cfa35b4cf4377",
                 "pic_id": "",
@@ -103,7 +119,10 @@
                 "platform": [
                     "汽水"
                 ],
-                "update": "2026.08.11",
+                "update": "",
+                "platform_dates": {
+                    "汽水": "2026.08.11"
+                },
                 "source": "local",
                 "url_id": "9197090c9533f48dfec18a811fd9e008",
                 "pic_id": "",
@@ -121,7 +140,11 @@
                     "汽水",
                     "视频号"
                 ],
-                "update": "2026.08.13",
+                "update": "",
+                "platform_dates": {
+                    "汽水": "2026.08.13",
+                    "视频号": "2026.08.13"
+                },
                 "source": "local",
                 "url_id": "62f84c6c692eae051450235cfb55f25a",
                 "pic_id": "",
@@ -139,7 +162,11 @@
                     "汽水",
                     "视频号"
                 ],
-                "update": "2026.08.11",
+                "update": "",
+                "platform_dates": {
+                    "汽水": "2026.08.11",
+                    "视频号": "2026.08.11"
+                },
                 "source": "local",
                 "url_id": "748e50a84573d7dd0dd111a5c6647d44",
                 "pic_id": "",
@@ -156,7 +183,10 @@
                 "platform": [
                     "汽水"
                 ],
-                "update": "2026.08.11",
+                "update": "",
+                "platform_dates": {
+                    "汽水": "2026.08.11"
+                },
                 "source": "local",
                 "url_id": "f03b3c02aa997846c97ea21c94dcc444",
                 "pic_id": "",
@@ -173,7 +203,10 @@
                 "platform": [
                     "汽水"
                 ],
-                "update": "2026.08.11",
+                "update": "",
+                "platform_dates": {
+                    "汽水": "2026.08.11"
+                },
                 "source": "local",
                 "url_id": "817ab4cbf7fb4b0bdae508f6545c8d0c",
                 "pic_id": "",
@@ -190,7 +223,10 @@
                 "platform": [
                     "汽水"
                 ],
-                "update": "2026.08.11",
+                "update": "",
+                "platform_dates": {
+                    "汽水": "2026.08.11"
+                },
                 "source": "local",
                 "url_id": "7c76f18250f7ad8102d3f5805aa546b4",
                 "pic_id": "",
@@ -208,7 +244,11 @@
                     "汽水",
                     "视频号"
                 ],
-                "update": "2026.08.11",
+                "update": "",
+                "platform_dates": {
+                    "汽水": "2026.08.11",
+                    "视频号": "2026.08.11"
+                },
                 "source": "local",
                 "url_id": "4d87b5e74c4e2b01860403476bccac41",
                 "pic_id": "",
@@ -226,7 +266,11 @@
                     "汽水",
                     "视频号"
                 ],
-                "update": "2026.08.11",
+                "update": "",
+                "platform_dates": {
+                    "汽水": "2026.08.11",
+                    "视频号": "2026.08.11"
+                },
                 "source": "local",
                 "url_id": "86fa96ba3e72b0492b123d4a5a6c7644",
                 "pic_id": "",
@@ -243,7 +287,10 @@
                 "platform": [
                     "汽水"
                 ],
-                "update": "2026.08.11",
+                "update": "",
+                "platform_dates": {
+                    "汽水": "2026.08.11"
+                },
                 "source": "local",
                 "url_id": "db392d23adf64b21cf00feb83bf15479",
                 "pic_id": "",
@@ -261,7 +308,11 @@
                     "汽水",
                     "视频号"
                 ],
-                "update": "2026.08.11",
+                "update": "",
+                "platform_dates": {
+                    "汽水": "2026.08.11",
+                    "视频号": "2026.08.11"
+                },
                 "source": "local",
                 "url_id": "d34cded71f2bd3b28467c484a234e3c2",
                 "pic_id": "",
@@ -277,6 +328,7 @@
                 "lyric": "",
                 "platform": [],
                 "update": "2026.08.11",
+                "platform_dates": {},
                 "source": "local",
                 "url_id": "407f3cac4e896eda3350cfc9a4cfb416",
                 "pic_id": "",
@@ -294,7 +346,11 @@
                     "汽水",
                     "视频号"
                 ],
-                "update": "2026.08.13",
+                "update": "",
+                "platform_dates": {
+                    "汽水": "2026.08.13",
+                    "视频号": "2026.08.13"
+                },
                 "source": "local",
                 "url_id": "760fe5439f4b73f0eb07597a3ecf62b2",
                 "pic_id": "",
@@ -311,7 +367,10 @@
                 "platform": [
                     "汽水"
                 ],
-                "update": "2026.08.11",
+                "update": "",
+                "platform_dates": {
+                    "汽水": "2026.08.11"
+                },
                 "source": "local",
                 "url_id": "93c0f1ffa48905a47491f2e7d4afaf11",
                 "pic_id": "",
@@ -329,7 +388,11 @@
                     "汽水",
                     "视频号"
                 ],
-                "update": "2026.08.11",
+                "update": "",
+                "platform_dates": {
+                    "汽水": "2026.08.11",
+                    "视频号": "2026.08.11"
+                },
                 "source": "local",
                 "url_id": "6f5eec560b5cb7c697db412cbbbb8cc4",
                 "pic_id": "",
@@ -346,7 +409,10 @@
                 "platform": [
                     "汽水"
                 ],
-                "update": "2026.08.11",
+                "update": "",
+                "platform_dates": {
+                    "汽水": "2026.08.11"
+                },
                 "source": "local",
                 "url_id": "3f3d37d05ddb12772a0268b03e56dda8",
                 "pic_id": "",
@@ -364,7 +430,11 @@
                     "汽水",
                     "视频号"
                 ],
-                "update": "2026.08.13",
+                "update": "",
+                "platform_dates": {
+                    "汽水": "2026.08.13",
+                    "视频号": "2026.08.13"
+                },
                 "source": "local",
                 "url_id": "f6d1c1c1c4e04d3960ec0019fd1b299f",
                 "pic_id": "",
@@ -382,7 +452,11 @@
                     "汽水",
                     "视频号"
                 ],
-                "update": "2026.08.13",
+                "update": "",
+                "platform_dates": {
+                    "汽水": "2026.08.13",
+                    "视频号": "2026.08.13"
+                },
                 "source": "local",
                 "url_id": "b3b623a8f88580fa0c47d0070bad7ef7",
                 "pic_id": "",
@@ -399,7 +473,10 @@
                 "platform": [
                     "汽水"
                 ],
-                "update": "2026.08.13",
+                "update": "",
+                "platform_dates": {
+                    "汽水": "2026.08.13"
+                },
                 "source": "local",
                 "url_id": "a3ad106d77c131de1691eda4a30532bf",
                 "pic_id": "",
@@ -416,7 +493,10 @@
                 "platform": [
                     "汽水"
                 ],
-                "update": "2026.08.13",
+                "update": "",
+                "platform_dates": {
+                    "汽水": "2026.08.13"
+                },
                 "source": "local",
                 "url_id": "ff34c49825cf5d7219235f87f7e03ae1",
                 "pic_id": "",

@@ -147,15 +147,15 @@
         padding-right: 30px;
         box-sizing: border-box;
     }
-    /*伴奏/剪辑版平台只有两个 logo：平台列收窄，给歌曲名更多空间*/
-    .narrow-platform .auth-name {
-        width: 20%;
-        padding-right: 10px;
+    /*伴奏/剪辑版平台+日期合并列（汽水/视频号各一格），移动端收窄给歌曲名更多空间*/
+    .narrow-platform .platform-cell {
+        width: 65px;
     }
-    /*伴奏/剪辑版更新日期显示距今天数（如 15 day）：更新列收窄*/
-    .narrow-platform .music-album {
-        width: 55px;
-        margin-right: 5px;
+    .narrow-platform .platform-cell .platform-logo {
+        width: 16px;
+        height: 16px;
+        margin-top: 0;
+        margin-right: 3px;
     }
     /*平台标签换行限制*/
     .platform-tags {
@@ -177,9 +177,9 @@
     .music-name {
         margin-right: 35%;
     }
-    /*伴奏/剪辑版平台列收窄后，歌曲名留白同步收窄（平台20% + 更新55px+5px）*/
+    /*伴奏/剪辑版歌曲名留白 = 汽水(65) + 视频号(65)*/
     .narrow-platform .music-name {
-        margin-right: calc(20% + 60px);
+        margin-right: 130px;
     }
 }
 
