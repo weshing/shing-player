@@ -63,17 +63,26 @@ function refreshLyric(time) {
 // 滚动歌词到指定句
 // 参数：当前播放时间（单位：秒）
 function scrollLyric(time) {
-    if (rem.lyric === '') return false;
+    if (rem.lyric === '' || rem.lyric === undefined) return false;
 
     time = parseInt(time);  // 时间取整
 
-    if (rem.lyric === undefined || rem.lyric[time] === undefined) return false;  // 当前时间点没有歌词
+    if (rem.lyric[time] === undefined) {
+        // 当前整数秒没有歌词：找到最近的一句（不晚于当前时间）
+        var prev = -1;
+        for (var kk in rem.lyric) {
+            if (parseInt(kk) > time) break;
+            prev = parseInt(kk);
+        }
+        if (prev === -1) return false;  // 还没到第一句歌词
+        time = prev;
+    }
 
     if (rem.lastLyric == time) return true;  // 歌词没发生改变
 
     var i = 0;  // 获取当前歌词是在第几行
     for (var k in rem.lyric) {
-        if (k == time) break;
+        if (parseInt(k) == time) break;
         i++;
     }
     rem.lastLyric = time;  // 记录方便下次使用
