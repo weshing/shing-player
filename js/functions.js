@@ -824,7 +824,7 @@ function addListhead() {
     var html = '<div class="list-item list-head">' +
         (showUpdate ?
             '    <span class="music-album">' +
-            '        更新日期' +
+            '        更新' +
             '    </span>' : '') +
         '    <span class="auth-name">' +
         '        平台' +
@@ -864,6 +864,14 @@ function platformLogosHtml(platforms) {
     return h;
 }
 
+// 把完整更新日期（YYYY.MM.DD）转为列表用的短格式（MM.DD），非日期格式原样返回
+function shortUpdate(update) {
+    if (!update) return '';
+    var m = String(update).match(/^\d{4}\.(\d{1,2})\.(\d{1,2})$/);
+    if (m) return m[1] + '.' + m[2];
+    return update;
+}
+
 // 列表中新增一项
 // 参数：编号、名字、平台标签数组、更新日期
 // 原创音乐列表（dislist==4）不显示更新日期列（详情里可查看），只留平台与歌曲
@@ -879,7 +887,7 @@ function addItem(no, name, platform, update) {
     var html = '<div class="list-item" data-no="' + (no - 1) + '">' +
         '    <span class="list-num">' + no + '</span>' +
         '    <span class="list-mobile-menu"></span>' +
-        (showUpdate ? '    <span class="music-album">' + (update || '') + '</span>' : '') +
+        (showUpdate ? '    <span class="music-album">' + shortUpdate(update) + '</span>' : '') +
         '    <span class="auth-name">' + tags + '</span>' +
         '    <span class="music-name">' + name + '</span>' +
         '</div>';

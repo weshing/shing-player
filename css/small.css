@@ -152,6 +152,11 @@
         width: 20%;
         padding-right: 10px;
     }
+    /*伴奏/剪辑版更新日期短格式（MM.DD）：更新列收窄*/
+    .narrow-platform .music-album {
+        width: 45px;
+        margin-right: 5px;
+    }
     /*平台标签换行限制*/
     .platform-tags {
         line-height: 30px;
@@ -172,9 +177,9 @@
     .music-name {
         margin-right: 35%;
     }
-    /*伴奏/剪辑版平台列收窄后，歌曲名留白同步收窄*/
+    /*伴奏/剪辑版平台列收窄后，歌曲名留白同步收窄（平台20% + 更新45px+5px）*/
     .narrow-platform .music-name {
-        margin-right: 20%;
+        margin-right: calc(20% + 50px);
     }
 }
 
