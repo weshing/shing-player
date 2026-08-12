@@ -54,6 +54,57 @@
                 "url_id": "e407557538d9a32f65215eea727e7a0b",
                 "pic_id": "",
                 "lyric_id": ""
+            },
+            {
+                "id": "eb5339929eb1ad118d996dd37c065407",
+                "name": "多待一会儿（副歌）",
+                "artist": "",
+                "album": "",
+                "url": "static/4801-多待一会儿/多待一会儿（副歌）-汽水.wav",
+                "pic": "",
+                "lyric": "",
+                "platform": [
+                    "汽水"
+                ],
+                "update": "",
+                "source": "local",
+                "url_id": "eb5339929eb1ad118d996dd37c065407",
+                "pic_id": "",
+                "lyric_id": ""
+            },
+            {
+                "id": "0b26e147d2c8215802e881736bb264d2",
+                "name": "忘了在看（主歌）",
+                "artist": "",
+                "album": "",
+                "url": "static/4802-忘了在看/忘了在看（主歌）-汽水.wav",
+                "pic": "",
+                "lyric": "",
+                "platform": [
+                    "汽水"
+                ],
+                "update": "",
+                "source": "local",
+                "url_id": "0b26e147d2c8215802e881736bb264d2",
+                "pic_id": "",
+                "lyric_id": ""
+            },
+            {
+                "id": "f9df38552bbf3fcbf29ff41327bba0bf",
+                "name": "忘了在看（副歌）",
+                "artist": "",
+                "album": "",
+                "url": "static/4802-忘了在看/忘了在看（副歌）-汽水.wav",
+                "pic": "",
+                "lyric": "",
+                "platform": [
+                    "汽水"
+                ],
+                "update": "",
+                "source": "local",
+                "url_id": "f9df38552bbf3fcbf29ff41327bba0bf",
+                "pic_id": "",
+                "lyric_id": ""
             }
         ]
     }

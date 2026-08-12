@@ -545,6 +545,36 @@
                 "url_id": "8aee01c6409b1f71cbad25c70d04871f",
                 "pic_id": "8aee01c6409b1f71cbad25c70d04871f",
                 "lyric_id": "8aee01c6409b1f71cbad25c70d04871f"
+            },
+            {
+                "id": "dd31053d74997818ffadb9c02cb5b533",
+                "name": "多待一会儿 - 悟小宝",
+                "artist": "",
+                "album": "",
+                "url": "static/4801-多待一会儿/多待一会儿.mp3",
+                "pic": "static/4801-多待一会儿/多待一会儿.png",
+                "lyric": "static/4801-多待一会儿/多待一会儿.lrc",
+                "platform": [],
+                "update": "2026.08.13",
+                "source": "local",
+                "url_id": "dd31053d74997818ffadb9c02cb5b533",
+                "pic_id": "dd31053d74997818ffadb9c02cb5b533",
+                "lyric_id": "dd31053d74997818ffadb9c02cb5b533"
+            },
+            {
+                "id": "709097561e096b54c8d04066a0dc61dd",
+                "name": "忘了在看 - 悟小宝",
+                "artist": "",
+                "album": "",
+                "url": "static/4802-忘了在看/忘了在看.mp3",
+                "pic": "static/4802-忘了在看/忘了在看.png",
+                "lyric": "static/4802-忘了在看/忘了在看.lrc",
+                "platform": [],
+                "update": "2026.08.13",
+                "source": "local",
+                "url_id": "709097561e096b54c8d04066a0dc61dd",
+                "pic_id": "709097561e096b54c8d04066a0dc61dd",
+                "lyric_id": "709097561e096b54c8d04066a0dc61dd"
             }
         ]
     }
