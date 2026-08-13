@@ -157,6 +157,13 @@
         margin-top: 0;
         margin-right: 3px;
     }
+    /*汽水列让开右侧移动端菜单图标，两列之间留缝隙，避免挤在一起*/
+    .narrow-platform .platform-cell-qishui {
+        margin-right: 30px;
+    }
+    .narrow-platform .platform-cell-shipinhao {
+        margin-left: 10px;
+    }
     /*平台标签换行限制*/
     .platform-tags {
         line-height: 30px;
@@ -177,9 +184,9 @@
     .music-name {
         margin-right: 35%;
     }
-    /*伴奏/剪辑版歌曲名留白 = 汽水(65) + 视频号(65)*/
+    /*伴奏/剪辑版歌曲名留白 = 汽水(30+65) + 视频号(10+65)*/
     .narrow-platform .music-name {
-        margin-right: 130px;
+        margin-right: 170px;
     }
 }
 

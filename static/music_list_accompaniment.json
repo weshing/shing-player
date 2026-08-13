@@ -501,6 +501,90 @@
                 "url_id": "ff34c49825cf5d7219235f87f7e03ae1",
                 "pic_id": "",
                 "lyric_id": ""
+            },
+            {
+                "id": "9d0fcab58d3de004f1aa277696080e95",
+                "name": "山脚起家（前奏）",
+                "artist": "",
+                "album": "",
+                "url": "static/4901-山脚起家/山脚起家（前奏）-汽水-视频号.wav",
+                "pic": "",
+                "lyric": "",
+                "platform": [
+                    "汽水",
+                    "视频号"
+                ],
+                "update": "",
+                "platform_dates": {
+                    "汽水": "2026.08.13",
+                    "视频号": "2026.08.13"
+                },
+                "source": "local",
+                "url_id": "9d0fcab58d3de004f1aa277696080e95",
+                "pic_id": "",
+                "lyric_id": ""
+            },
+            {
+                "id": "cbd9a673eb76612d7c8542f648354dbf",
+                "name": "山脚起家（间奏）",
+                "artist": "",
+                "album": "",
+                "url": "static/4901-山脚起家/山脚起家（间奏）-汽水.wav",
+                "pic": "",
+                "lyric": "",
+                "platform": [
+                    "汽水"
+                ],
+                "update": "",
+                "platform_dates": {
+                    "汽水": "2026.08.13"
+                },
+                "source": "local",
+                "url_id": "cbd9a673eb76612d7c8542f648354dbf",
+                "pic_id": "",
+                "lyric_id": ""
+            },
+            {
+                "id": "c1bd9b8c2aff291ad11be274959d7320",
+                "name": "摔得起（前奏）",
+                "artist": "",
+                "album": "",
+                "url": "static/4902-摔得起/摔得起（前奏）-汽水-视频号.wav",
+                "pic": "",
+                "lyric": "",
+                "platform": [
+                    "汽水",
+                    "视频号"
+                ],
+                "update": "",
+                "platform_dates": {
+                    "汽水": "2026.08.13",
+                    "视频号": "2026.08.13"
+                },
+                "source": "local",
+                "url_id": "c1bd9b8c2aff291ad11be274959d7320",
+                "pic_id": "",
+                "lyric_id": ""
+            },
+            {
+                "id": "7c7f291f7ae1eaa37a3f0a6edc8962e3",
+                "name": "摔得起（间奏）",
+                "artist": "",
+                "album": "",
+                "url": "static/4902-摔得起/摔得起（间奏）-汽水.wav",
+                "pic": "",
+                "lyric": "",
+                "platform": [
+                    "汽水"
+                ],
+                "update": "",
+                "platform_dates": {
+                    "汽水": "2026.08.13"
+                },
+                "source": "local",
+                "url_id": "7c7f291f7ae1eaa37a3f0a6edc8962e3",
+                "pic_id": "",
+                "lyric_id": ""
             }
         ]
     }
