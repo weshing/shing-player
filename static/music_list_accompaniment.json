@@ -441,6 +441,28 @@
                 "lyric_id": ""
             },
             {
+                "id": "ffc1ffc0ab824631b91ec6735b13abd0",
+                "name": "多待一会儿（伴奏）",
+                "artist": "",
+                "album": "",
+                "url": "static/4801-多待一会儿/多待一会儿（伴奏）-汽水-视频号.wav",
+                "pic": "",
+                "lyric": "",
+                "platform": [
+                    "汽水",
+                    "视频号"
+                ],
+                "update": "",
+                "platform_dates": {
+                    "汽水": "2026.08.13",
+                    "视频号": "2026.08.13"
+                },
+                "source": "local",
+                "url_id": "ffc1ffc0ab824631b91ec6735b13abd0",
+                "pic_id": "",
+                "lyric_id": ""
+            },
+            {
                 "id": "b3b623a8f88580fa0c47d0070bad7ef7",
                 "name": "多待一会儿（前奏）",
                 "artist": "",
@@ -459,26 +481,6 @@
                 },
                 "source": "local",
                 "url_id": "b3b623a8f88580fa0c47d0070bad7ef7",
-                "pic_id": "",
-                "lyric_id": ""
-            },
-            {
-                "id": "a3ad106d77c131de1691eda4a30532bf",
-                "name": "多待一会儿（间奏）",
-                "artist": "",
-                "album": "",
-                "url": "static/4801-多待一会儿/多待一会儿（间奏）-汽水.wav",
-                "pic": "",
-                "lyric": "",
-                "platform": [
-                    "汽水"
-                ],
-                "update": "",
-                "platform_dates": {
-                    "汽水": "2026.08.13"
-                },
-                "source": "local",
-                "url_id": "a3ad106d77c131de1691eda4a30532bf",
                 "pic_id": "",
                 "lyric_id": ""
             },
