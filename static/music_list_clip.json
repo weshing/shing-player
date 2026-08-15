@@ -121,6 +121,26 @@
                 "url_id": "f9df38552bbf3fcbf29ff41327bba0bf",
                 "pic_id": "",
                 "lyric_id": ""
+            },
+            {
+                "id": "677ddae4c0e3cc57b65be842ac014dbc",
+                "name": "好好吃饭（主歌）",
+                "artist": "",
+                "album": "",
+                "url": "static/5001-好好吃饭/好好吃饭（主歌）-汽水.wav",
+                "pic": "",
+                "lyric": "",
+                "platform": [
+                    "汽水"
+                ],
+                "update": "",
+                "platform_dates": {
+                    "汽水": "2026.08.15"
+                },
+                "source": "local",
+                "url_id": "677ddae4c0e3cc57b65be842ac014dbc",
+                "pic_id": "",
+                "lyric_id": ""
             }
         ]
     }

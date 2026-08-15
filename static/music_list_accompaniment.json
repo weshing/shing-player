@@ -585,6 +585,70 @@
                 "url_id": "7c7f291f7ae1eaa37a3f0a6edc8962e3",
                 "pic_id": "",
                 "lyric_id": ""
+            },
+            {
+                "id": "9cf521dcad30158419365e1eb426fa43",
+                "name": "好好吃饭（间奏）",
+                "artist": "",
+                "album": "",
+                "url": "static/5001-好好吃饭/好好吃饭（间奏）-汽水-视频号.wav",
+                "pic": "",
+                "lyric": "",
+                "platform": [
+                    "汽水",
+                    "视频号"
+                ],
+                "update": "",
+                "platform_dates": {
+                    "汽水": "2026.08.15",
+                    "视频号": "2026.08.15"
+                },
+                "source": "local",
+                "url_id": "9cf521dcad30158419365e1eb426fa43",
+                "pic_id": "",
+                "lyric_id": ""
+            },
+            {
+                "id": "23a5fd5e26e55ee4de484eec15173ada",
+                "name": "别等（前奏）",
+                "artist": "",
+                "album": "",
+                "url": "static/5002-别等/别等（前奏）-汽水-视频号.wav",
+                "pic": "",
+                "lyric": "",
+                "platform": [
+                    "汽水",
+                    "视频号"
+                ],
+                "update": "",
+                "platform_dates": {
+                    "汽水": "2026.08.15",
+                    "视频号": "2026.08.15"
+                },
+                "source": "local",
+                "url_id": "23a5fd5e26e55ee4de484eec15173ada",
+                "pic_id": "",
+                "lyric_id": ""
+            },
+            {
+                "id": "e27b491836b4c6123f01ff216bd4a08d",
+                "name": "别等（间奏）",
+                "artist": "",
+                "album": "",
+                "url": "static/5002-别等/别等（间奏）-汽水.wav",
+                "pic": "",
+                "lyric": "",
+                "platform": [
+                    "汽水"
+                ],
+                "update": "",
+                "platform_dates": {
+                    "汽水": "2026.08.15"
+                },
+                "source": "local",
+                "url_id": "e27b491836b4c6123f01ff216bd4a08d",
+                "pic_id": "",
+                "lyric_id": ""
             }
         ]
     }
