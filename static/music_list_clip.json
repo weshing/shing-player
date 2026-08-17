@@ -141,6 +141,22 @@
                 "url_id": "677ddae4c0e3cc57b65be842ac014dbc",
                 "pic_id": "",
                 "lyric_id": ""
+            },
+            {
+                "id": "9ebb5ec75cc85d4e93a936137ec46e2e",
+                "name": "伞该收了（副歌）",
+                "artist": "",
+                "album": "",
+                "url": "static/5101-伞该收了/伞该收了（副歌）.wav",
+                "pic": "",
+                "lyric": "",
+                "platform": [],
+                "update": "2026.08.17",
+                "platform_dates": {},
+                "source": "local",
+                "url_id": "9ebb5ec75cc85d4e93a936137ec46e2e",
+                "pic_id": "",
+                "lyric_id": ""
             }
         ]
     }

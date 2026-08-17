@@ -101,7 +101,7 @@
                 "update": "",
                 "platform_dates": {
                     "汽水": "2026.08.11",
-                    "视频号": "2026.08.14"
+                    "视频号": "2026.08.17"
                 },
                 "source": "local",
                 "url_id": "077f613ce4f5d1b6fd7cfa35b4cf4377",
@@ -165,7 +165,7 @@
                 "update": "",
                 "platform_dates": {
                     "汽水": "2026.08.11",
-                    "视频号": "2026.08.11"
+                    "视频号": "2026.08.17"
                 },
                 "source": "local",
                 "url_id": "748e50a84573d7dd0dd111a5c6647d44",
@@ -433,7 +433,7 @@
                 "update": "",
                 "platform_dates": {
                     "汽水": "2026.08.13",
-                    "视频号": "2026.08.13"
+                    "视频号": "2026.08.17"
                 },
                 "source": "local",
                 "url_id": "f6d1c1c1c4e04d3960ec0019fd1b299f",
@@ -455,7 +455,7 @@
                 "update": "",
                 "platform_dates": {
                     "汽水": "2026.08.13",
-                    "视频号": "2026.08.13"
+                    "视频号": "2026.08.17"
                 },
                 "source": "local",
                 "url_id": "ffc1ffc0ab824631b91ec6735b13abd0",
@@ -477,7 +477,7 @@
                 "update": "",
                 "platform_dates": {
                     "汽水": "2026.08.13",
-                    "视频号": "2026.08.13"
+                    "视频号": "2026.08.17"
                 },
                 "source": "local",
                 "url_id": "b3b623a8f88580fa0c47d0070bad7ef7",
@@ -519,7 +519,7 @@
                 "update": "",
                 "platform_dates": {
                     "汽水": "2026.08.13",
-                    "视频号": "2026.08.13"
+                    "视频号": "2026.08.17"
                 },
                 "source": "local",
                 "url_id": "9d0fcab58d3de004f1aa277696080e95",
@@ -625,7 +625,7 @@
                 "update": "",
                 "platform_dates": {
                     "汽水": "2026.08.15",
-                    "视频号": "2026.08.15"
+                    "视频号": "2026.08.17"
                 },
                 "source": "local",
                 "url_id": "23a5fd5e26e55ee4de484eec15173ada",
@@ -649,6 +649,78 @@
                 },
                 "source": "local",
                 "url_id": "e27b491836b4c6123f01ff216bd4a08d",
+                "pic_id": "",
+                "lyric_id": ""
+            },
+            {
+                "id": "bf3153d9a3f516b2fd296ba0794a3280",
+                "name": "伞该收了(前奏)",
+                "artist": "",
+                "album": "",
+                "url": "static/5101-伞该收了/伞该收了(前奏).wav",
+                "pic": "",
+                "lyric": "",
+                "platform": [],
+                "update": "2026.08.17",
+                "platform_dates": {},
+                "source": "local",
+                "url_id": "bf3153d9a3f516b2fd296ba0794a3280",
+                "pic_id": "",
+                "lyric_id": ""
+            },
+            {
+                "id": "fe465102a5931560c6e10162d216e4bd",
+                "name": "伞该收了（间奏）",
+                "artist": "",
+                "album": "",
+                "url": "static/5101-伞该收了/伞该收了（间奏）.wav",
+                "pic": "",
+                "lyric": "",
+                "platform": [],
+                "update": "2026.08.17",
+                "platform_dates": {},
+                "source": "local",
+                "url_id": "fe465102a5931560c6e10162d216e4bd",
+                "pic_id": "",
+                "lyric_id": ""
+            },
+            {
+                "id": "a450d207d0b9839bf854afdbde275fc6",
+                "name": "那把旧吉他（间奏）",
+                "artist": "",
+                "album": "",
+                "url": "static/5102-那把旧吉他/那把旧吉他（间奏）-汽水.wav",
+                "pic": "",
+                "lyric": "",
+                "platform": [
+                    "汽水"
+                ],
+                "update": "",
+                "platform_dates": {
+                    "汽水": "2026.08.17"
+                },
+                "source": "local",
+                "url_id": "a450d207d0b9839bf854afdbde275fc6",
+                "pic_id": "",
+                "lyric_id": ""
+            },
+            {
+                "id": "79bedc39e509c63c4352f63195d826dd",
+                "name": "假热闹（前奏）",
+                "artist": "",
+                "album": "",
+                "url": "static/5200-假热闹/假热闹（前奏）-汽水.wav",
+                "pic": "",
+                "lyric": "",
+                "platform": [
+                    "汽水"
+                ],
+                "update": "",
+                "platform_dates": {
+                    "汽水": "2026.08.17"
+                },
+                "source": "local",
+                "url_id": "79bedc39e509c63c4352f63195d826dd",
                 "pic_id": "",
                 "lyric_id": ""
             }
