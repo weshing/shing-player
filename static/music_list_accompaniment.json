@@ -723,6 +723,28 @@
                 "url_id": "79bedc39e509c63c4352f63195d826dd",
                 "pic_id": "",
                 "lyric_id": ""
+            },
+            {
+                "id": "09b96953c38be30e62a929122f8d211a",
+                "name": "汤要慢慢熬（前奏）",
+                "artist": "",
+                "album": "",
+                "url": "static/5300-汤要慢慢熬/汤要慢慢熬（前奏）-汽水-视频号.wav",
+                "pic": "",
+                "lyric": "",
+                "platform": [
+                    "汽水",
+                    "视频号"
+                ],
+                "update": "",
+                "platform_dates": {
+                    "汽水": "2026.08.18",
+                    "视频号": "2026.08.18"
+                },
+                "source": "local",
+                "url_id": "09b96953c38be30e62a929122f8d211a",
+                "pic_id": "",
+                "lyric_id": ""
             }
         ]
     }

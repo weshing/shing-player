@@ -725,6 +725,22 @@
                 "url_id": "bc6d137bdd685c28806e62be0142be56",
                 "pic_id": "bc6d137bdd685c28806e62be0142be56",
                 "lyric_id": "bc6d137bdd685c28806e62be0142be56"
+            },
+            {
+                "id": "0ba2851c74690a1540f18f4bd1e3d9db",
+                "name": "汤要慢慢熬 - 悟小宝",
+                "artist": "",
+                "album": "",
+                "url": "static/5300-汤要慢慢熬/汤要慢慢熬.mp3",
+                "pic": "static/5300-汤要慢慢熬/汤要慢慢熬.jpeg",
+                "lyric": "static/5300-汤要慢慢熬/汤要慢慢熬.lrc",
+                "platform": [],
+                "update": "2026.08.18",
+                "platform_dates": {},
+                "source": "local",
+                "url_id": "0ba2851c74690a1540f18f4bd1e3d9db",
+                "pic_id": "0ba2851c74690a1540f18f4bd1e3d9db",
+                "lyric_id": "0ba2851c74690a1540f18f4bd1e3d9db"
             }
         ]
     }
