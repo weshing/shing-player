@@ -747,11 +747,11 @@
                 "lyric_id": ""
             },
             {
-                "id": "eb6a476376c874f9c01f85ca50d390ca",
+                "id": "5652a7e28f64cef497f02e550ba1c0b5",
                 "name": "绕回原点（前奏）",
                 "artist": "",
                 "album": "",
-                "url": "static/54-绕回原点/绕回原点（前奏）-汽水-视频号.wav",
+                "url": "static/5400-绕回原点/绕回原点（前奏）-汽水-视频号.wav",
                 "pic": "",
                 "lyric": "",
                 "platform": [
@@ -764,16 +764,16 @@
                     "视频号": "2026.08.19"
                 },
                 "source": "local",
-                "url_id": "eb6a476376c874f9c01f85ca50d390ca",
+                "url_id": "5652a7e28f64cef497f02e550ba1c0b5",
                 "pic_id": "",
                 "lyric_id": ""
             },
             {
-                "id": "afc763dd23b5128c4317ad0fad27a050",
+                "id": "2b1c36a600b56acf67dbefd3459676b8",
                 "name": "绕回原点（间奏）",
                 "artist": "",
                 "album": "",
-                "url": "static/54-绕回原点/绕回原点（间奏）-汽水.wav",
+                "url": "static/5400-绕回原点/绕回原点（间奏）-汽水.wav",
                 "pic": "",
                 "lyric": "",
                 "platform": [
@@ -784,7 +784,89 @@
                     "汽水": "2026.08.19"
                 },
                 "source": "local",
-                "url_id": "afc763dd23b5128c4317ad0fad27a050",
+                "url_id": "2b1c36a600b56acf67dbefd3459676b8",
+                "pic_id": "",
+                "lyric_id": ""
+            },
+            {
+                "id": "20e438265802a32d253822752e297dc7",
+                "name": "一针一线（前奏）",
+                "artist": "",
+                "album": "",
+                "url": "static/5501-一针一线/一针一线（前奏）-汽水.wav",
+                "pic": "",
+                "lyric": "",
+                "platform": [
+                    "汽水"
+                ],
+                "update": "",
+                "platform_dates": {
+                    "汽水": "2026.08.19"
+                },
+                "source": "local",
+                "url_id": "20e438265802a32d253822752e297dc7",
+                "pic_id": "",
+                "lyric_id": ""
+            },
+            {
+                "id": "ac8d246bb48678168bed2c2aa02df245",
+                "name": "一针一线（间奏）",
+                "artist": "",
+                "album": "",
+                "url": "static/5501-一针一线/一针一线（间奏）-汽水.wav",
+                "pic": "",
+                "lyric": "",
+                "platform": [
+                    "汽水"
+                ],
+                "update": "",
+                "platform_dates": {
+                    "汽水": "2026.08.19"
+                },
+                "source": "local",
+                "url_id": "ac8d246bb48678168bed2c2aa02df245",
+                "pic_id": "",
+                "lyric_id": ""
+            },
+            {
+                "id": "188e7e0e2eed6f9d234faefa0aa603fe",
+                "name": "仪式感（前奏）",
+                "artist": "",
+                "album": "",
+                "url": "static/5502-仪式感/仪式感（前奏）-汽水.wav",
+                "pic": "",
+                "lyric": "",
+                "platform": [
+                    "汽水"
+                ],
+                "update": "",
+                "platform_dates": {
+                    "汽水": "2026.08.19"
+                },
+                "source": "local",
+                "url_id": "188e7e0e2eed6f9d234faefa0aa603fe",
+                "pic_id": "",
+                "lyric_id": ""
+            },
+            {
+                "id": "9f43c044028f4aab97190e81cd37fe56",
+                "name": "仪式感（间奏）",
+                "artist": "",
+                "album": "",
+                "url": "static/5502-仪式感/仪式感（间奏）-汽水-视频号.wav",
+                "pic": "",
+                "lyric": "",
+                "platform": [
+                    "汽水",
+                    "视频号"
+                ],
+                "update": "",
+                "platform_dates": {
+                    "汽水": "2026.08.19",
+                    "视频号": "2026.08.19"
+                },
+                "source": "local",
+                "url_id": "9f43c044028f4aab97190e81cd37fe56",
                 "pic_id": "",
                 "lyric_id": ""
             }

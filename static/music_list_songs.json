@@ -743,20 +743,52 @@
                 "lyric_id": "0ba2851c74690a1540f18f4bd1e3d9db"
             },
             {
-                "id": "3b30b551d0a4f5fbc0e5091d907e841f",
+                "id": "fc36eb4b32e570923b4cfb4f949e8f42",
                 "name": "绕回原点 - 悟小宝",
                 "artist": "",
                 "album": "",
-                "url": "static/54-绕回原点/绕回原点.mp3",
-                "pic": "static/54-绕回原点/绕回原点.jpeg",
-                "lyric": "static/54-绕回原点/绕回原点.lrc",
+                "url": "static/5400-绕回原点/绕回原点.mp3",
+                "pic": "static/5400-绕回原点/绕回原点.jpeg",
+                "lyric": "static/5400-绕回原点/绕回原点.lrc",
                 "platform": [],
                 "update": "2026.08.19",
                 "platform_dates": {},
                 "source": "local",
-                "url_id": "3b30b551d0a4f5fbc0e5091d907e841f",
-                "pic_id": "3b30b551d0a4f5fbc0e5091d907e841f",
-                "lyric_id": "3b30b551d0a4f5fbc0e5091d907e841f"
+                "url_id": "fc36eb4b32e570923b4cfb4f949e8f42",
+                "pic_id": "fc36eb4b32e570923b4cfb4f949e8f42",
+                "lyric_id": "fc36eb4b32e570923b4cfb4f949e8f42"
+            },
+            {
+                "id": "e1c47ef9642411f79e638a8da0816623",
+                "name": "一针一线 - 悟小宝",
+                "artist": "",
+                "album": "",
+                "url": "static/5501-一针一线/一针一线.mp3",
+                "pic": "static/5501-一针一线/一针一线.jpeg",
+                "lyric": "static/5501-一针一线/一针一线.lrc",
+                "platform": [],
+                "update": "2026.08.19",
+                "platform_dates": {},
+                "source": "local",
+                "url_id": "e1c47ef9642411f79e638a8da0816623",
+                "pic_id": "e1c47ef9642411f79e638a8da0816623",
+                "lyric_id": "e1c47ef9642411f79e638a8da0816623"
+            },
+            {
+                "id": "4c72b2345200fa3eccaa433f7a0c70db",
+                "name": "仪式感 - 悟小宝",
+                "artist": "",
+                "album": "",
+                "url": "static/5502-仪式感/仪式感.mp3",
+                "pic": "static/5502-仪式感/仪式感.jpeg",
+                "lyric": "static/5502-仪式感/仪式感.lrc",
+                "platform": [],
+                "update": "2026.08.19",
+                "platform_dates": {},
+                "source": "local",
+                "url_id": "4c72b2345200fa3eccaa433f7a0c70db",
+                "pic_id": "4c72b2345200fa3eccaa433f7a0c70db",
+                "lyric_id": "4c72b2345200fa3eccaa433f7a0c70db"
             }
         ]
     }
