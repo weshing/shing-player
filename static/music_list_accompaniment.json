@@ -319,18 +319,24 @@
                 "lyric_id": ""
             },
             {
-                "id": "407f3cac4e896eda3350cfc9a4cfb416",
+                "id": "c8685619ef0c89f875ea5ed95998e69f",
                 "name": "一张素脸（间奏）",
                 "artist": "",
                 "album": "",
-                "url": "static/4601-一张素脸/一张素脸（间奏）.wav",
+                "url": "static/4601-一张素脸/一张素脸（间奏）-汽水-视频号.wav",
                 "pic": "",
                 "lyric": "",
-                "platform": [],
-                "update": "2026.08.11",
-                "platform_dates": {},
+                "platform": [
+                    "汽水",
+                    "视频号"
+                ],
+                "update": "",
+                "platform_dates": {
+                    "汽水": "2026.08.11",
+                    "视频号": "2026.08.11"
+                },
                 "source": "local",
-                "url_id": "407f3cac4e896eda3350cfc9a4cfb416",
+                "url_id": "c8685619ef0c89f875ea5ed95998e69f",
                 "pic_id": "",
                 "lyric_id": ""
             },
