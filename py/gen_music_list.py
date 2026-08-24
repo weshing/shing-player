@@ -69,17 +69,20 @@ def args() :
 ALL_SUFFIXES = MUSIC_SUFFIXES + PIC_SUFFIXES + [ LYRIC_SUFFIX ]
 
 def validate_extensions(work_dir) :
-    uppercase_files = []
+    fixed = []
     for root, _, files in os.walk(work_dir) :
         for f in files :
             _, ext = os.path.splitext(f)
             if ext and ext != ext.lower() :
-                uppercase_files.append(os.path.relpath(os.path.join(root, f), work_dir))
-    if uppercase_files :
-        log.warning("发现大写后缀文件，请修正为小写：")
-        for fp in uppercase_files :
-            log.warning(f"  {fp}")
-    return len(uppercase_files) == 0
+                old_path = os.path.join(root, f)
+                new_path = os.path.join(root, f[:-len(ext)] + ext.lower())
+                os.rename(old_path, new_path)
+                fixed.append(os.path.relpath(new_path, work_dir))
+    if fixed :
+        log.info("已自动修正大写后缀：")
+        for fp in fixed :
+            log.info(f"  {fp}")
+    return True
 
 
 def main(args) :
