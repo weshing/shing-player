@@ -821,6 +821,38 @@
                 "url_id": "7fe57894289e18462088645b6b1a6381",
                 "pic_id": "7fe57894289e18462088645b6b1a6381",
                 "lyric_id": "7fe57894289e18462088645b6b1a6381"
+            },
+            {
+                "id": "f89a755709c502e5f7940ef75d32bd7a",
+                "name": "一块平板 - 悟小宝",
+                "artist": "",
+                "album": "",
+                "url": "static/5800-一块平板/一块平板.mp3",
+                "pic": "static/5800-一块平板/一块平板.jpeg",
+                "lyric": "static/5800-一块平板/一块平板.lrc",
+                "platform": [],
+                "update": "2026.08.24",
+                "platform_dates": {},
+                "source": "local",
+                "url_id": "f89a755709c502e5f7940ef75d32bd7a",
+                "pic_id": "f89a755709c502e5f7940ef75d32bd7a",
+                "lyric_id": "f89a755709c502e5f7940ef75d32bd7a"
+            },
+            {
+                "id": "2a1623df443c8c32b581263e828f22f6",
+                "name": "鞋要合脚 - 悟小宝",
+                "artist": "",
+                "album": "",
+                "url": "static/5900-鞋要合脚/鞋要合脚.mp3",
+                "pic": "static/5900-鞋要合脚/鞋要合脚.jpeg",
+                "lyric": "static/5900-鞋要合脚/鞋要合脚.lrc",
+                "platform": [],
+                "update": "2026.08.24",
+                "platform_dates": {},
+                "source": "local",
+                "url_id": "2a1623df443c8c32b581263e828f22f6",
+                "pic_id": "2a1623df443c8c32b581263e828f22f6",
+                "lyric_id": "2a1623df443c8c32b581263e828f22f6"
             }
         ]
     }
