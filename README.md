@@ -1,71 +1,93 @@
-# Github Pages Music Player
+# Shing Player
 
-> Github Pages 在线音乐播放器（直接读取仓库 mp3 文件，无需部署后台）
+> 悟小宝原创音乐播放器 · [player.weshing.com](https://player.weshing.com)
 
-------
+纯静态 GitHub Pages 音乐播放器，托管悟小宝原创歌曲、伴奏与剪辑版。无需后端，上传 mp3 即可播放。
 
+## 功能
 
-## 0x00 前言
+- 歌词同步显示（全屏 LRC 歌词）
+- 多平台标签（汽水音乐、视频号），按平台显示发布日期
+- 歌曲搜索
+- PC / 移动端自适应
+- GitHub Actions 自动更新歌单（push 即生效）
 
-个人用的音乐库 + 跨平台播放支持。
+## 歌曲库
 
+| 歌单 | 数量 | 说明 |
+|------|------|------|
+| 原创音乐 | 53 首 | 悟小宝原创，文件名无前缀，显示名带 ` - 悟小宝` |
+| 伴奏 | 42 首 | 带汽水/视频号平台标签 |
+| 剪辑版 | 8 首 | 带汽水/视频号平台标签 |
 
-## 0x10 前置准备
+歌曲目录在 [`static/`](./static/) 下，每个子目录包含 mp3、封面（png/jpeg）、歌词（lrc）、可选片段 wav。
 
-1. 把音乐文件（暂时只支持 `*.mp3`）放到 [`static`](./static/) 下的任意子目录
-2. 执行 `python -m pip install -r ./py/requirements.txt` 安装必要依赖
-3. 执行 `python ./py/fix_metadata.py` 自动修复音乐文件的元数据
-4. 执行 `python ./py/gen_music_list.py` 生成歌单 [`music_list.json`](./static/music_list.json)
-5. 执行 `python ./py/gen_login.py` 生成网页播放器的登录账密
+## 快速开始
 
+### GitHub Pages（线上）
 
-## 0x20 Github Pages 在线播放器
+1. Fork 或推送到本仓库
+2. 启用 GitHub Pages（部署 `main` 分支）
+3. 访问分配的域名，填入登录账密（默认 `admin / 123456`）
 
-1. 启动 Github Pages 即可
-2. 当上传新的音乐文件到 [`static`](./static/) 下，[update_music_list.yml](./.github/workflows/update_music_list.yml) 会自动刷新歌单，触发 Github Pages 刷新
-3. 访问 Github Pages 分配的域名，填入登录账密即可（默认帐密为 `admin / 123456`）
+推送新歌曲到 `static/` 后，[update_music_list.yml](./.github/workflows/update_music_list.yml) 自动重新生成歌单。
 
-![](./images/01.jpg)
+### Docker（本地调试）
 
-> 此方式支持 PC 端和移动端
+```bash
+./bin/build.sh
+./bin/run.sh
+# 访问 http://127.0.0.1:7080
+```
 
+## 工具脚本
 
-## 0x30 Docker 本地播放器
+在 [`py/`](./py/) 目录下，需 Python 3.9+：
 
-1. 本地安装 docker 和 docker-compose
-2. 执行 [`bin/build.sh|ps1`](./bin/build.sh) 构建镜像
-3. 执行 [`bin/run.sh|ps1`](./bin/run.sh) 运行容器环境
-4. 访问 http://127.0.0.1:7080 ，填入登录账密即可
+| 脚本 | 用途 |
+|------|------|
+| `gen_music_list.py` | 扫描 `static/` 生成三份歌单 JSON |
+| `update_song_meta.py` | 给歌曲打发布日期（支持 `--platform 汽水\|视频号`） |
+| `qishui_lyrics.py` | 从汽水音乐抓取 LRC 歌词（标准库，无需依赖） |
+| `qqmusic_lyrics.py` | 从 QQ 音乐抓取歌词 |
+| `kugou_lyrics.py` | 从酷狗音乐抓取歌词 |
+| `batch_fetch_lyrics.py` | 批量抓取缺失歌词 |
+| `fix_metadata.py` | 修复 mp3 元数据 |
 
-![](./images/01.jpg)
+## 项目结构
 
-> 此方式是在本地模拟 Github Pages，一般用于调试代码
+```
+├── index.html              # 播放器页面
+├── js/
+│   ├── player.js           # 播放器核心
+│   ├── functions.js        # UI 渲染（歌单列表/平台标签/日期列）
+│   ├── ajax.js             # 数据加载与搜索
+│   └── musicList.js        # 歌单配置
+├── css/
+│   ├── player.css          # 主样式
+│   └── small.css           # 移动端适配
+├── static/
+│   ├── song_meta.json      # 原创歌曲日期标签
+│   ├── song_meta_qishui.json      # 汽水平台日期
+│   ├── song_meta_shipinhao.json   # 视频号平台日期
+│   ├── music_list_songs.json       # 原创歌单
+│   ├── music_list_accompaniment.json # 伴奏歌单
+│   ├── music_list_clip.json        # 剪辑版歌单
+│   └── <编号>-<歌名>/             # 歌曲目录（mp3/lrc/png/wav）
+├── py/                     # 工具脚本
+├── images/                 # 平台图标等静态资源
+└── .github/workflows/
+    └── update_music_list.yml  # 自动更新歌单
+```
 
+## 技术栈
 
-## 0x40 MusicPlayer2 播放器
+- 前端：HTML + CSS + jQuery
+- 歌单生成：Python
+- CI/CD：GitHub Actions
+- 部署：GitHub Pages + Cloudflare DNS
+- 自定义域名：player.weshing.com
 
-1. 安装 [MusicPlayer2](https://github.com/zhongyang219/MusicPlayer2/wiki) 
-2. 使用此软件加载 [`static`](./static/) 目录下的音乐文件
+## License
 
-![](./images/02.jpg)
-
-![](./images/03.jpg)
-
-![](./images/04.jpg)
-
-之所以推荐这款软件，是因为可以很方便修改音乐文件的元数据、下载歌词和专辑封面图片，然后直接提供给 Github Pages 或 Docker 播放器使用
-
-> 更新元数据、歌词 或 封面图片后，需要重新生成歌单 [`music_list.json`](./static/music_list.json)
-
-
-## 0x50 mStream 播放器
-
-1. 本地安装 docker 和 docker-compose
-2. 参考 [mstream-docker](https://github.com/lyy289065406/mstream-docker) 的指引部署
-3. 访问 http://127.0.0.1:9000 ，填入登录账密
-4. 在页面的 File Explore 加载 [`static`](./static/) 目录下的音乐文件
-
-![](./images/05.jpg)
-
-> 只能在本地 PC 使用，除了支持自定义歌单之外，没什么优势，而且不支持歌词。Github Pages 播放器未来也会支持自定义歌单（存储在 cookies）
-
+[Apache License 2.0](./LICENSE)
