@@ -37,7 +37,7 @@ MUSIC_LIST = f"{MUSIC_DIR}/{MUSIC_LIST_PERFIX}_%s.json"
 MUSIC_LIST_JS = "js/player.js"
 MUSIC_SUFFIXES = [ ".mp3", ".wma", ".m4a", ".aac", ".ogg", ".flac", ".wav" ]
 LYRIC_SUFFIX = ".lrc"
-PIC_SUFFIXES = [ ".jpg", ".jpeg", ".png", ".PNG", ".JPG", ".JPEG" ]
+PIC_SUFFIXES = [ ".jpg", ".jpeg", ".png" ]
 BGM_KEYWORDS = [ "伴奏", "前奏", "尾奏", "间奏" ]
 CLIP_KEYWORDS = [ "主歌", "副歌", "剪辑版" ]
 # 平台标签后缀：文件名末尾附加（可叠加多个），显示时会剥离并作为 platform 标签
@@ -66,11 +66,29 @@ def args() :
     return parser.parse_args()
 
 
+ALL_SUFFIXES = MUSIC_SUFFIXES + PIC_SUFFIXES + [ LYRIC_SUFFIX ]
+
+def validate_extensions(work_dir) :
+    uppercase_files = []
+    for root, _, files in os.walk(work_dir) :
+        for f in files :
+            _, ext = os.path.splitext(f)
+            if ext and ext != ext.lower() :
+                uppercase_files.append(os.path.relpath(os.path.join(root, f), work_dir))
+    if uppercase_files :
+        log.warning("发现大写后缀文件，请修正为小写：")
+        for fp in uppercase_files :
+            log.warning(f"  {fp}")
+    return len(uppercase_files) == 0
+
+
 def main(args) :
     if args.ignores :
         ignores = [x.strip() for x in args.ignores.split(',')]
     else :
         ignores = []
+
+    validate_extensions(MUSIC_DIR)
 
     # 读取歌曲更新日期元数据 {显示名: "YYYY-MM-DD"}：原创音乐 + 各平台
     song_meta = {}
