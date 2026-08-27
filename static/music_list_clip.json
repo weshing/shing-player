@@ -157,6 +157,24 @@
                 "url_id": "9ebb5ec75cc85d4e93a936137ec46e2e",
                 "pic_id": "",
                 "lyric_id": ""
+            },
+            {
+                "id": "06ade86031e0d37b473f4e9cc8806c37",
+                "name": "赦罪(剪辑版)",
+                "artist": "",
+                "album": "",
+                "url": "static/6300-赦罪/赦罪(剪辑版)-汽水.wav",
+                "pic": "",
+                "lyric": "",
+                "platform": [
+                    "汽水"
+                ],
+                "update": "",
+                "platform_dates": {},
+                "source": "local",
+                "url_id": "06ade86031e0d37b473f4e9cc8806c37",
+                "pic_id": "",
+                "lyric_id": ""
             }
         ]
     }
