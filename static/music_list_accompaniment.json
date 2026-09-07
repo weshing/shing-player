@@ -895,20 +895,22 @@
                 "lyric_id": ""
             },
             {
-                "id": "d2f45ec9a3872c2f323906e1aa66b9fd",
-                "name": "6400-捞东西 (间奏)",
+                "id": "9d41c1974b8e095e4a6c20dbf7d6e484",
+                "name": "捞东西（间奏）",
                 "artist": "",
                 "album": "",
-                "url": "static/049-捞东西/6400-捞东西 (间奏)-汽水.wav",
+                "url": "static/049-捞东西/捞东西（间奏）-汽水.wav",
                 "pic": "",
                 "lyric": "",
                 "platform": [
                     "汽水"
                 ],
                 "update": "",
-                "platform_dates": {},
+                "platform_dates": {
+                    "汽水": "2026.09.07"
+                },
                 "source": "local",
-                "url_id": "d2f45ec9a3872c2f323906e1aa66b9fd",
+                "url_id": "9d41c1974b8e095e4a6c20dbf7d6e484",
                 "pic_id": "",
                 "lyric_id": ""
             },
@@ -925,7 +927,10 @@
                     "视频号"
                 ],
                 "update": "",
-                "platform_dates": {},
+                "platform_dates": {
+                    "汽水": "2026.09.07",
+                    "视频号": "2026.09.07"
+                },
                 "source": "local",
                 "url_id": "d02d351d531a0e8ac0624ad1d33d41cb",
                 "pic_id": "",

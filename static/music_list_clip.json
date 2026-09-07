@@ -177,20 +177,22 @@
                 "lyric_id": ""
             },
             {
-                "id": "fa11bbad81731a3cc5d731f7fe0dd823",
-                "name": "6400-捞东西 (剪辑版)",
+                "id": "6e1c61675627ef9e42cb6c512ee277fa",
+                "name": "捞东西（剪辑版）",
                 "artist": "",
                 "album": "",
-                "url": "static/049-捞东西/6400-捞东西 (剪辑版)-汽水.wav",
+                "url": "static/049-捞东西/捞东西（剪辑版）-汽水.wav",
                 "pic": "",
                 "lyric": "",
                 "platform": [
                     "汽水"
                 ],
                 "update": "",
-                "platform_dates": {},
+                "platform_dates": {
+                    "汽水": "2026.09.07"
+                },
                 "source": "local",
-                "url_id": "fa11bbad81731a3cc5d731f7fe0dd823",
+                "url_id": "6e1c61675627ef9e42cb6c512ee277fa",
                 "pic_id": "",
                 "lyric_id": ""
             },
@@ -206,7 +208,9 @@
                     "汽水"
                 ],
                 "update": "",
-                "platform_dates": {},
+                "platform_dates": {
+                    "汽水": "2026.09.07"
+                },
                 "source": "local",
                 "url_id": "04f440b33b071418474908e400a3ce97",
                 "pic_id": "",
@@ -221,7 +225,7 @@
                 "pic": "",
                 "lyric": "",
                 "platform": [],
-                "update": "",
+                "update": "2026.09.07",
                 "platform_dates": {},
                 "source": "local",
                 "url_id": "b6ee48aa11ae1b336bd42b067e5df579",
@@ -240,7 +244,9 @@
                     "汽水"
                 ],
                 "update": "",
-                "platform_dates": {},
+                "platform_dates": {
+                    "汽水": "2026.09.07"
+                },
                 "source": "local",
                 "url_id": "6349fa710352042d63d594e26a8fd793",
                 "pic_id": "",
