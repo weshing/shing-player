@@ -7,11 +7,11 @@
         "creatorAvatar": "images/avatar.jpg",
         "item": [
             {
-                "id": "a63e11b32f7c44cef5b27ca07bcc2324",
+                "id": "094347d3ace7e5c98e507cdb1a8f9e9e",
                 "name": "三道茶（主歌）",
                 "artist": "",
                 "album": "",
-                "url": "static/16-三道茶/三道茶（主歌）-汽水.wav",
+                "url": "static/001-三道茶/三道茶（主歌）-汽水.wav",
                 "pic": "",
                 "lyric": "",
                 "platform": [
@@ -22,16 +22,16 @@
                     "汽水": "2026.08.11"
                 },
                 "source": "local",
-                "url_id": "a63e11b32f7c44cef5b27ca07bcc2324",
+                "url_id": "094347d3ace7e5c98e507cdb1a8f9e9e",
                 "pic_id": "",
                 "lyric_id": ""
             },
             {
-                "id": "0b9a8479cf8764c0e72bbcf3ed970a3c",
+                "id": "4426c511ee3b4f4442345334e56cccc9",
                 "name": "三道茶（副歌）",
                 "artist": "",
                 "album": "",
-                "url": "static/16-三道茶/三道茶（副歌）-汽水.wav",
+                "url": "static/001-三道茶/三道茶（副歌）-汽水.wav",
                 "pic": "",
                 "lyric": "",
                 "platform": [
@@ -42,32 +42,32 @@
                     "汽水": "2026.08.11"
                 },
                 "source": "local",
-                "url_id": "0b9a8479cf8764c0e72bbcf3ed970a3c",
+                "url_id": "4426c511ee3b4f4442345334e56cccc9",
                 "pic_id": "",
                 "lyric_id": ""
             },
             {
-                "id": "e407557538d9a32f65215eea727e7a0b",
+                "id": "343c7875f51eb85d2d974ae4e5027bd7",
                 "name": "认了一半（剪辑版）",
                 "artist": "",
                 "album": "",
-                "url": "static/36-认了一半/认了一半（剪辑版）.wav",
+                "url": "static/021-认了一半/认了一半（剪辑版）.wav",
                 "pic": "",
                 "lyric": "",
                 "platform": [],
                 "update": "2026.08.11",
                 "platform_dates": {},
                 "source": "local",
-                "url_id": "e407557538d9a32f65215eea727e7a0b",
+                "url_id": "343c7875f51eb85d2d974ae4e5027bd7",
                 "pic_id": "",
                 "lyric_id": ""
             },
             {
-                "id": "eb5339929eb1ad118d996dd37c065407",
+                "id": "063db59d0a570924dbf3a1b3791b9a65",
                 "name": "多待一会儿（副歌）",
                 "artist": "",
                 "album": "",
-                "url": "static/4801-多待一会儿/多待一会儿（副歌）-汽水.wav",
+                "url": "static/033-多待一会儿 & 忘了在看/多待一会儿（副歌）-汽水.wav",
                 "pic": "",
                 "lyric": "",
                 "platform": [
@@ -78,16 +78,16 @@
                     "汽水": "2026.08.13"
                 },
                 "source": "local",
-                "url_id": "eb5339929eb1ad118d996dd37c065407",
+                "url_id": "063db59d0a570924dbf3a1b3791b9a65",
                 "pic_id": "",
                 "lyric_id": ""
             },
             {
-                "id": "0b26e147d2c8215802e881736bb264d2",
+                "id": "df63c770d903f08813dcbafd61294a78",
                 "name": "忘了在看（主歌）",
                 "artist": "",
                 "album": "",
-                "url": "static/4802-忘了在看/忘了在看（主歌）-汽水.wav",
+                "url": "static/033-多待一会儿 & 忘了在看/忘了在看（主歌）-汽水.wav",
                 "pic": "",
                 "lyric": "",
                 "platform": [
@@ -98,16 +98,16 @@
                     "汽水": "2026.08.13"
                 },
                 "source": "local",
-                "url_id": "0b26e147d2c8215802e881736bb264d2",
+                "url_id": "df63c770d903f08813dcbafd61294a78",
                 "pic_id": "",
                 "lyric_id": ""
             },
             {
-                "id": "f9df38552bbf3fcbf29ff41327bba0bf",
+                "id": "57e0b10ab413a2ea2c656ddef9dab97d",
                 "name": "忘了在看（副歌）",
                 "artist": "",
                 "album": "",
-                "url": "static/4802-忘了在看/忘了在看（副歌）-汽水.wav",
+                "url": "static/033-多待一会儿 & 忘了在看/忘了在看（副歌）-汽水.wav",
                 "pic": "",
                 "lyric": "",
                 "platform": [
@@ -118,16 +118,16 @@
                     "汽水": "2026.08.13"
                 },
                 "source": "local",
-                "url_id": "f9df38552bbf3fcbf29ff41327bba0bf",
+                "url_id": "57e0b10ab413a2ea2c656ddef9dab97d",
                 "pic_id": "",
                 "lyric_id": ""
             },
             {
-                "id": "677ddae4c0e3cc57b65be842ac014dbc",
+                "id": "b413912333f57f3f3d91b92a24dfb3bd",
                 "name": "好好吃饭（主歌）",
                 "artist": "",
                 "album": "",
-                "url": "static/5001-好好吃饭/好好吃饭（主歌）-汽水.wav",
+                "url": "static/035-好好吃饭 & 别等/好好吃饭（主歌）-汽水.wav",
                 "pic": "",
                 "lyric": "",
                 "platform": [
@@ -138,32 +138,32 @@
                     "汽水": "2026.08.15"
                 },
                 "source": "local",
-                "url_id": "677ddae4c0e3cc57b65be842ac014dbc",
+                "url_id": "b413912333f57f3f3d91b92a24dfb3bd",
                 "pic_id": "",
                 "lyric_id": ""
             },
             {
-                "id": "9ebb5ec75cc85d4e93a936137ec46e2e",
+                "id": "831bdb79977b22221c6378a53f31df1a",
                 "name": "伞该收了（副歌）",
                 "artist": "",
                 "album": "",
-                "url": "static/5101-伞该收了/伞该收了（副歌）.wav",
+                "url": "static/036-伞该收了 & 那把旧吉他/伞该收了（副歌）.wav",
                 "pic": "",
                 "lyric": "",
                 "platform": [],
                 "update": "2026.08.17",
                 "platform_dates": {},
                 "source": "local",
-                "url_id": "9ebb5ec75cc85d4e93a936137ec46e2e",
+                "url_id": "831bdb79977b22221c6378a53f31df1a",
                 "pic_id": "",
                 "lyric_id": ""
             },
             {
-                "id": "06ade86031e0d37b473f4e9cc8806c37",
+                "id": "e97616448715554a42df63a49bb49dac",
                 "name": "赦罪(剪辑版)",
                 "artist": "",
                 "album": "",
-                "url": "static/6300-赦罪/赦罪(剪辑版)-汽水.wav",
+                "url": "static/048-赦罪/赦罪(剪辑版)-汽水.wav",
                 "pic": "",
                 "lyric": "",
                 "platform": [
@@ -172,7 +172,77 @@
                 "update": "",
                 "platform_dates": {},
                 "source": "local",
-                "url_id": "06ade86031e0d37b473f4e9cc8806c37",
+                "url_id": "e97616448715554a42df63a49bb49dac",
+                "pic_id": "",
+                "lyric_id": ""
+            },
+            {
+                "id": "fa11bbad81731a3cc5d731f7fe0dd823",
+                "name": "6400-捞东西 (剪辑版)",
+                "artist": "",
+                "album": "",
+                "url": "static/049-捞东西/6400-捞东西 (剪辑版)-汽水.wav",
+                "pic": "",
+                "lyric": "",
+                "platform": [
+                    "汽水"
+                ],
+                "update": "",
+                "platform_dates": {},
+                "source": "local",
+                "url_id": "fa11bbad81731a3cc5d731f7fe0dd823",
+                "pic_id": "",
+                "lyric_id": ""
+            },
+            {
+                "id": "04f440b33b071418474908e400a3ce97",
+                "name": "端不起（剪辑版）",
+                "artist": "",
+                "album": "",
+                "url": "static/056-端不起/端不起（剪辑版）-汽水.wav",
+                "pic": "",
+                "lyric": "",
+                "platform": [
+                    "汽水"
+                ],
+                "update": "",
+                "platform_dates": {},
+                "source": "local",
+                "url_id": "04f440b33b071418474908e400a3ce97",
+                "pic_id": "",
+                "lyric_id": ""
+            },
+            {
+                "id": "b6ee48aa11ae1b336bd42b067e5df579",
+                "name": "顶起来（剪辑版）",
+                "artist": "",
+                "album": "",
+                "url": "static/057-顶起来/顶起来（剪辑版）.wav",
+                "pic": "",
+                "lyric": "",
+                "platform": [],
+                "update": "",
+                "platform_dates": {},
+                "source": "local",
+                "url_id": "b6ee48aa11ae1b336bd42b067e5df579",
+                "pic_id": "",
+                "lyric_id": ""
+            },
+            {
+                "id": "6349fa710352042d63d594e26a8fd793",
+                "name": "贵以身（剪辑版）",
+                "artist": "",
+                "album": "",
+                "url": "static/058-贵以身/贵以身（剪辑版）-汽水.wav",
+                "pic": "",
+                "lyric": "",
+                "platform": [
+                    "汽水"
+                ],
+                "update": "",
+                "platform_dates": {},
+                "source": "local",
+                "url_id": "6349fa710352042d63d594e26a8fd793",
                 "pic_id": "",
                 "lyric_id": ""
             }

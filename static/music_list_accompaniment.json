@@ -7,11 +7,11 @@
         "creatorAvatar": "images/avatar.jpg",
         "item": [
             {
-                "id": "01bb35391e2cacbe5ec45355b74f1e0e",
+                "id": "bfafe87fbe208f3ccdf3e14b9169d2c7",
                 "name": "三道茶（前奏）",
                 "artist": "",
                 "album": "",
-                "url": "static/16-三道茶/三道茶（前奏）-汽水-视频号.wav",
+                "url": "static/001-三道茶/三道茶（前奏）-汽水-视频号.wav",
                 "pic": "",
                 "lyric": "",
                 "platform": [
@@ -24,32 +24,32 @@
                     "视频号": "2026.08.14"
                 },
                 "source": "local",
-                "url_id": "01bb35391e2cacbe5ec45355b74f1e0e",
+                "url_id": "bfafe87fbe208f3ccdf3e14b9169d2c7",
                 "pic_id": "",
                 "lyric_id": ""
             },
             {
-                "id": "7cf50eba8d51a1b4c772aacfd78be9d1",
+                "id": "5ea8908440d2b6c3b8506886b9ceca93",
                 "name": "认了一半（间奏）",
                 "artist": "",
                 "album": "",
-                "url": "static/36-认了一半/认了一半（间奏）.wav",
+                "url": "static/021-认了一半/认了一半（间奏）.wav",
                 "pic": "",
                 "lyric": "",
                 "platform": [],
                 "update": "2026.08.11",
                 "platform_dates": {},
                 "source": "local",
-                "url_id": "7cf50eba8d51a1b4c772aacfd78be9d1",
+                "url_id": "5ea8908440d2b6c3b8506886b9ceca93",
                 "pic_id": "",
                 "lyric_id": ""
             },
             {
-                "id": "9033f136355a55a99ea9e6380773dd19",
+                "id": "d576c0649371563b34b5a91dbf2d26c2",
                 "name": "怕执着的人（前奏）",
                 "artist": "",
                 "album": "",
-                "url": "static/38-怕执着的人/怕执着的人（前奏）-汽水.wav",
+                "url": "static/023-怕执着的人/怕执着的人（前奏）-汽水.wav",
                 "pic": "",
                 "lyric": "",
                 "platform": [
@@ -60,16 +60,16 @@
                     "汽水": "2026.08.11"
                 },
                 "source": "local",
-                "url_id": "9033f136355a55a99ea9e6380773dd19",
+                "url_id": "d576c0649371563b34b5a91dbf2d26c2",
                 "pic_id": "",
                 "lyric_id": ""
             },
             {
-                "id": "94c3a43b2a829d01e0154ce630a9be52",
+                "id": "4f57e9325a1516054a2d5d4c57c5aa51",
                 "name": "怕执着的人（间奏）",
                 "artist": "",
                 "album": "",
-                "url": "static/38-怕执着的人/怕执着的人（间奏）-汽水-视频号.wav",
+                "url": "static/023-怕执着的人/怕执着的人（间奏）-汽水-视频号.wav",
                 "pic": "",
                 "lyric": "",
                 "platform": [
@@ -82,16 +82,16 @@
                     "视频号": "2026.08.11"
                 },
                 "source": "local",
-                "url_id": "94c3a43b2a829d01e0154ce630a9be52",
+                "url_id": "4f57e9325a1516054a2d5d4c57c5aa51",
                 "pic_id": "",
                 "lyric_id": ""
             },
             {
-                "id": "077f613ce4f5d1b6fd7cfa35b4cf4377",
+                "id": "9333e6d95895f8aee9e705d3b2ed492f",
                 "name": "还是那条路(前奏)",
                 "artist": "",
                 "album": "",
-                "url": "static/39-还是那条路/还是那条路(前奏)-汽水-视频号.wav",
+                "url": "static/024-还是那条路/还是那条路(前奏)-汽水-视频号.wav",
                 "pic": "",
                 "lyric": "",
                 "platform": [
@@ -104,16 +104,16 @@
                     "视频号": "2026.08.17"
                 },
                 "source": "local",
-                "url_id": "077f613ce4f5d1b6fd7cfa35b4cf4377",
+                "url_id": "9333e6d95895f8aee9e705d3b2ed492f",
                 "pic_id": "",
                 "lyric_id": ""
             },
             {
-                "id": "9197090c9533f48dfec18a811fd9e008",
+                "id": "45cf153d16923a8878a4849a1a23db31",
                 "name": "还是那条路（间奏）",
                 "artist": "",
                 "album": "",
-                "url": "static/39-还是那条路/还是那条路（间奏）-汽水.wav",
+                "url": "static/024-还是那条路/还是那条路（间奏）-汽水.wav",
                 "pic": "",
                 "lyric": "",
                 "platform": [
@@ -124,16 +124,16 @@
                     "汽水": "2026.08.11"
                 },
                 "source": "local",
-                "url_id": "9197090c9533f48dfec18a811fd9e008",
+                "url_id": "45cf153d16923a8878a4849a1a23db31",
                 "pic_id": "",
                 "lyric_id": ""
             },
             {
-                "id": "62f84c6c692eae051450235cfb55f25a",
+                "id": "5a7b5854b5beae92dd0d3cff238f6d9c",
                 "name": "等雾散开（间奏）",
                 "artist": "",
                 "album": "",
-                "url": "static/40-等雾散开/等雾散开（间奏）-汽水-视频号.wav",
+                "url": "static/025-等雾散开/等雾散开（间奏）-汽水-视频号.wav",
                 "pic": "",
                 "lyric": "",
                 "platform": [
@@ -146,16 +146,16 @@
                     "视频号": "2026.08.13"
                 },
                 "source": "local",
-                "url_id": "62f84c6c692eae051450235cfb55f25a",
+                "url_id": "5a7b5854b5beae92dd0d3cff238f6d9c",
                 "pic_id": "",
                 "lyric_id": ""
             },
             {
-                "id": "748e50a84573d7dd0dd111a5c6647d44",
+                "id": "884f7915f45c9f6f1b35bbf13238765a",
                 "name": "一沙一古城（前奏）",
                 "artist": "",
                 "album": "",
-                "url": "static/42-一沙一古城/一沙一古城（前奏）-汽水-视频号.wav",
+                "url": "static/027-一沙一古城/一沙一古城（前奏）-汽水-视频号.wav",
                 "pic": "",
                 "lyric": "",
                 "platform": [
@@ -168,16 +168,16 @@
                     "视频号": "2026.08.17"
                 },
                 "source": "local",
-                "url_id": "748e50a84573d7dd0dd111a5c6647d44",
+                "url_id": "884f7915f45c9f6f1b35bbf13238765a",
                 "pic_id": "",
                 "lyric_id": ""
             },
             {
-                "id": "f03b3c02aa997846c97ea21c94dcc444",
+                "id": "09345cd060a875c7ef930f18dd985bf2",
                 "name": "一沙一古城（间奏）",
                 "artist": "",
                 "album": "",
-                "url": "static/42-一沙一古城/一沙一古城（间奏）-汽水.wav",
+                "url": "static/027-一沙一古城/一沙一古城（间奏）-汽水.wav",
                 "pic": "",
                 "lyric": "",
                 "platform": [
@@ -188,16 +188,16 @@
                     "汽水": "2026.08.11"
                 },
                 "source": "local",
-                "url_id": "f03b3c02aa997846c97ea21c94dcc444",
+                "url_id": "09345cd060a875c7ef930f18dd985bf2",
                 "pic_id": "",
                 "lyric_id": ""
             },
             {
-                "id": "817ab4cbf7fb4b0bdae508f6545c8d0c",
+                "id": "05a29aaa31447e04e71d10b8c37fea09",
                 "name": "我不拦它（前奏）",
                 "artist": "",
                 "album": "",
-                "url": "static/43-我不拦它/我不拦它（前奏）-汽水.wav",
+                "url": "static/028-我不拦它/我不拦它（前奏）-汽水.wav",
                 "pic": "",
                 "lyric": "",
                 "platform": [
@@ -208,16 +208,16 @@
                     "汽水": "2026.08.11"
                 },
                 "source": "local",
-                "url_id": "817ab4cbf7fb4b0bdae508f6545c8d0c",
+                "url_id": "05a29aaa31447e04e71d10b8c37fea09",
                 "pic_id": "",
                 "lyric_id": ""
             },
             {
-                "id": "7c76f18250f7ad8102d3f5805aa546b4",
+                "id": "10d356319a374b267b58cd927fe9e24d",
                 "name": "我不拦它（间奏）",
                 "artist": "",
                 "album": "",
-                "url": "static/43-我不拦它/我不拦它（间奏）-汽水.wav",
+                "url": "static/028-我不拦它/我不拦它（间奏）-汽水.wav",
                 "pic": "",
                 "lyric": "",
                 "platform": [
@@ -228,16 +228,16 @@
                     "汽水": "2026.08.11"
                 },
                 "source": "local",
-                "url_id": "7c76f18250f7ad8102d3f5805aa546b4",
+                "url_id": "10d356319a374b267b58cd927fe9e24d",
                 "pic_id": "",
                 "lyric_id": ""
             },
             {
-                "id": "4d87b5e74c4e2b01860403476bccac41",
+                "id": "d43d8514244829688bd220e79b700e2b",
                 "name": "人心不单向（间奏）",
                 "artist": "",
                 "album": "",
-                "url": "static/4401-人心不单向/人心不单向（间奏）-汽水-视频号.wav",
+                "url": "static/029-人心不单向 & 半勺糖/人心不单向（间奏）-汽水-视频号.wav",
                 "pic": "",
                 "lyric": "",
                 "platform": [
@@ -250,16 +250,16 @@
                     "视频号": "2026.08.14"
                 },
                 "source": "local",
-                "url_id": "4d87b5e74c4e2b01860403476bccac41",
+                "url_id": "d43d8514244829688bd220e79b700e2b",
                 "pic_id": "",
                 "lyric_id": ""
             },
             {
-                "id": "86fa96ba3e72b0492b123d4a5a6c7644",
+                "id": "497db99168d6b205d0858c4d63f8bf14",
                 "name": "半勺糖（间奏）",
                 "artist": "",
                 "album": "",
-                "url": "static/4402-半勺糖/半勺糖（间奏）-汽水-视频号.wav",
+                "url": "static/029-人心不单向 & 半勺糖/半勺糖（间奏）-汽水-视频号.wav",
                 "pic": "",
                 "lyric": "",
                 "platform": [
@@ -272,16 +272,16 @@
                     "视频号": "2026.08.11"
                 },
                 "source": "local",
-                "url_id": "86fa96ba3e72b0492b123d4a5a6c7644",
+                "url_id": "497db99168d6b205d0858c4d63f8bf14",
                 "pic_id": "",
                 "lyric_id": ""
             },
             {
-                "id": "db392d23adf64b21cf00feb83bf15479",
+                "id": "40f4fe8365beae3304abed7f250c5f09",
                 "name": "半块馒头（间奏）",
                 "artist": "",
                 "album": "",
-                "url": "static/4501-半块馒头/半块馒头（间奏）-汽水.wav",
+                "url": "static/030-半块馒头 & 陪谁走夜路/半块馒头（间奏）-汽水.wav",
                 "pic": "",
                 "lyric": "",
                 "platform": [
@@ -292,16 +292,16 @@
                     "汽水": "2026.08.11"
                 },
                 "source": "local",
-                "url_id": "db392d23adf64b21cf00feb83bf15479",
+                "url_id": "40f4fe8365beae3304abed7f250c5f09",
                 "pic_id": "",
                 "lyric_id": ""
             },
             {
-                "id": "d34cded71f2bd3b28467c484a234e3c2",
+                "id": "766b8b80b90df0c2c73d44cc658e8438",
                 "name": "陪谁走夜路（间奏）",
                 "artist": "",
                 "album": "",
-                "url": "static/4502-陪谁走夜路/陪谁走夜路（间奏）-汽水-视频号.wav",
+                "url": "static/030-半块馒头 & 陪谁走夜路/陪谁走夜路（间奏）-汽水-视频号.wav",
                 "pic": "",
                 "lyric": "",
                 "platform": [
@@ -314,16 +314,16 @@
                     "视频号": "2026.08.11"
                 },
                 "source": "local",
-                "url_id": "d34cded71f2bd3b28467c484a234e3c2",
+                "url_id": "766b8b80b90df0c2c73d44cc658e8438",
                 "pic_id": "",
                 "lyric_id": ""
             },
             {
-                "id": "c8685619ef0c89f875ea5ed95998e69f",
+                "id": "93f98310b7e86201ca356f1830aae067",
                 "name": "一张素脸（间奏）",
                 "artist": "",
                 "album": "",
-                "url": "static/4601-一张素脸/一张素脸（间奏）-汽水-视频号.wav",
+                "url": "static/031-一张素脸 & 小算盘/一张素脸（间奏）-汽水-视频号.wav",
                 "pic": "",
                 "lyric": "",
                 "platform": [
@@ -336,16 +336,16 @@
                     "视频号": "2026.08.11"
                 },
                 "source": "local",
-                "url_id": "c8685619ef0c89f875ea5ed95998e69f",
+                "url_id": "93f98310b7e86201ca356f1830aae067",
                 "pic_id": "",
                 "lyric_id": ""
             },
             {
-                "id": "760fe5439f4b73f0eb07597a3ecf62b2",
+                "id": "1189f81556c70f41e8480065fd3c7dab",
                 "name": "小算盘（前奏）",
                 "artist": "",
                 "album": "",
-                "url": "static/4602-小算盘/小算盘（前奏）-汽水-视频号.wav",
+                "url": "static/031-一张素脸 & 小算盘/小算盘（前奏）-汽水-视频号.wav",
                 "pic": "",
                 "lyric": "",
                 "platform": [
@@ -358,16 +358,16 @@
                     "视频号": "2026.08.13"
                 },
                 "source": "local",
-                "url_id": "760fe5439f4b73f0eb07597a3ecf62b2",
+                "url_id": "1189f81556c70f41e8480065fd3c7dab",
                 "pic_id": "",
                 "lyric_id": ""
             },
             {
-                "id": "93c0f1ffa48905a47491f2e7d4afaf11",
-                "name": "由它去（尾奏）",
+                "id": "8b75366eccfd6e01a2bebe2d7d3402a7",
+                "name": "只是错觉（前奏）",
                 "artist": "",
                 "album": "",
-                "url": "static/4701-由它去/由它去（尾奏）-汽水.wav",
+                "url": "static/032-由它去 & 只是错觉/只是错觉（前奏）-汽水.wav",
                 "pic": "",
                 "lyric": "",
                 "platform": [
@@ -378,16 +378,58 @@
                     "汽水": "2026.08.11"
                 },
                 "source": "local",
-                "url_id": "93c0f1ffa48905a47491f2e7d4afaf11",
+                "url_id": "8b75366eccfd6e01a2bebe2d7d3402a7",
                 "pic_id": "",
                 "lyric_id": ""
             },
             {
-                "id": "6f5eec560b5cb7c697db412cbbbb8cc4",
+                "id": "679ee1a046a7aac4d5303c717a468a3a",
+                "name": "只是错觉（间奏）",
+                "artist": "",
+                "album": "",
+                "url": "static/032-由它去 & 只是错觉/只是错觉（间奏）-汽水-视频号.wav",
+                "pic": "",
+                "lyric": "",
+                "platform": [
+                    "汽水",
+                    "视频号"
+                ],
+                "update": "",
+                "platform_dates": {
+                    "汽水": "2026.08.13",
+                    "视频号": "2026.08.17"
+                },
+                "source": "local",
+                "url_id": "679ee1a046a7aac4d5303c717a468a3a",
+                "pic_id": "",
+                "lyric_id": ""
+            },
+            {
+                "id": "072299530ddd8642f5711d35e3efd127",
+                "name": "由它去（尾奏）",
+                "artist": "",
+                "album": "",
+                "url": "static/032-由它去 & 只是错觉/由它去（尾奏）-汽水.wav",
+                "pic": "",
+                "lyric": "",
+                "platform": [
+                    "汽水"
+                ],
+                "update": "",
+                "platform_dates": {
+                    "汽水": "2026.08.11"
+                },
+                "source": "local",
+                "url_id": "072299530ddd8642f5711d35e3efd127",
+                "pic_id": "",
+                "lyric_id": ""
+            },
+            {
+                "id": "b7abcfe1637de45cce94138d4c7a65ea",
                 "name": "由它去（间奏）",
                 "artist": "",
                 "album": "",
-                "url": "static/4701-由它去/由它去（间奏）-汽水-视频号.wav",
+                "url": "static/032-由它去 & 只是错觉/由它去（间奏）-汽水-视频号.wav",
                 "pic": "",
                 "lyric": "",
                 "platform": [
@@ -400,58 +442,16 @@
                     "视频号": "2026.08.14"
                 },
                 "source": "local",
-                "url_id": "6f5eec560b5cb7c697db412cbbbb8cc4",
+                "url_id": "b7abcfe1637de45cce94138d4c7a65ea",
                 "pic_id": "",
                 "lyric_id": ""
             },
             {
-                "id": "3f3d37d05ddb12772a0268b03e56dda8",
-                "name": "只是错觉（前奏）",
-                "artist": "",
-                "album": "",
-                "url": "static/4702-只是错觉/只是错觉（前奏）-汽水.wav",
-                "pic": "",
-                "lyric": "",
-                "platform": [
-                    "汽水"
-                ],
-                "update": "",
-                "platform_dates": {
-                    "汽水": "2026.08.11"
-                },
-                "source": "local",
-                "url_id": "3f3d37d05ddb12772a0268b03e56dda8",
-                "pic_id": "",
-                "lyric_id": ""
-            },
-            {
-                "id": "f6d1c1c1c4e04d3960ec0019fd1b299f",
-                "name": "只是错觉（间奏）",
-                "artist": "",
-                "album": "",
-                "url": "static/4702-只是错觉/只是错觉（间奏）-汽水-视频号.wav",
-                "pic": "",
-                "lyric": "",
-                "platform": [
-                    "汽水",
-                    "视频号"
-                ],
-                "update": "",
-                "platform_dates": {
-                    "汽水": "2026.08.13",
-                    "视频号": "2026.08.17"
-                },
-                "source": "local",
-                "url_id": "f6d1c1c1c4e04d3960ec0019fd1b299f",
-                "pic_id": "",
-                "lyric_id": ""
-            },
-            {
-                "id": "ffc1ffc0ab824631b91ec6735b13abd0",
+                "id": "725cea902c27ad3c266ad3f0f9f8cd3a",
                 "name": "多待一会儿（伴奏）",
                 "artist": "",
                 "album": "",
-                "url": "static/4801-多待一会儿/多待一会儿（伴奏）-汽水-视频号.wav",
+                "url": "static/033-多待一会儿 & 忘了在看/多待一会儿（伴奏）-汽水-视频号.wav",
                 "pic": "",
                 "lyric": "",
                 "platform": [
@@ -464,16 +464,16 @@
                     "视频号": "2026.08.17"
                 },
                 "source": "local",
-                "url_id": "ffc1ffc0ab824631b91ec6735b13abd0",
+                "url_id": "725cea902c27ad3c266ad3f0f9f8cd3a",
                 "pic_id": "",
                 "lyric_id": ""
             },
             {
-                "id": "b3b623a8f88580fa0c47d0070bad7ef7",
+                "id": "efd503222208ff734e1f39663a2e1dbf",
                 "name": "多待一会儿（前奏）",
                 "artist": "",
                 "album": "",
-                "url": "static/4801-多待一会儿/多待一会儿（前奏）-汽水-视频号.wav",
+                "url": "static/033-多待一会儿 & 忘了在看/多待一会儿（前奏）-汽水-视频号.wav",
                 "pic": "",
                 "lyric": "",
                 "platform": [
@@ -486,16 +486,16 @@
                     "视频号": "2026.08.17"
                 },
                 "source": "local",
-                "url_id": "b3b623a8f88580fa0c47d0070bad7ef7",
+                "url_id": "efd503222208ff734e1f39663a2e1dbf",
                 "pic_id": "",
                 "lyric_id": ""
             },
             {
-                "id": "ff34c49825cf5d7219235f87f7e03ae1",
+                "id": "3f3ae0e4665fd9fcca54efdf8635074e",
                 "name": "忘了在看（间奏）",
                 "artist": "",
                 "album": "",
-                "url": "static/4802-忘了在看/忘了在看（间奏）-汽水.wav",
+                "url": "static/033-多待一会儿 & 忘了在看/忘了在看（间奏）-汽水.wav",
                 "pic": "",
                 "lyric": "",
                 "platform": [
@@ -506,16 +506,16 @@
                     "汽水": "2026.08.13"
                 },
                 "source": "local",
-                "url_id": "ff34c49825cf5d7219235f87f7e03ae1",
+                "url_id": "3f3ae0e4665fd9fcca54efdf8635074e",
                 "pic_id": "",
                 "lyric_id": ""
             },
             {
-                "id": "9d0fcab58d3de004f1aa277696080e95",
+                "id": "5562c752be821e3e2ca5721180093a3e",
                 "name": "山脚起家（前奏）",
                 "artist": "",
                 "album": "",
-                "url": "static/4901-山脚起家/山脚起家（前奏）-汽水-视频号.wav",
+                "url": "static/034-山脚起家 & 摔得起/山脚起家（前奏）-汽水-视频号.wav",
                 "pic": "",
                 "lyric": "",
                 "platform": [
@@ -528,16 +528,16 @@
                     "视频号": "2026.08.17"
                 },
                 "source": "local",
-                "url_id": "9d0fcab58d3de004f1aa277696080e95",
+                "url_id": "5562c752be821e3e2ca5721180093a3e",
                 "pic_id": "",
                 "lyric_id": ""
             },
             {
-                "id": "cbd9a673eb76612d7c8542f648354dbf",
+                "id": "60992540b66cbe583610d51985914673",
                 "name": "山脚起家（间奏）",
                 "artist": "",
                 "album": "",
-                "url": "static/4901-山脚起家/山脚起家（间奏）-汽水.wav",
+                "url": "static/034-山脚起家 & 摔得起/山脚起家（间奏）-汽水.wav",
                 "pic": "",
                 "lyric": "",
                 "platform": [
@@ -548,16 +548,16 @@
                     "汽水": "2026.08.13"
                 },
                 "source": "local",
-                "url_id": "cbd9a673eb76612d7c8542f648354dbf",
+                "url_id": "60992540b66cbe583610d51985914673",
                 "pic_id": "",
                 "lyric_id": ""
             },
             {
-                "id": "c1bd9b8c2aff291ad11be274959d7320",
+                "id": "e49a8a5cc565019977b7a775d2095826",
                 "name": "摔得起（前奏）",
                 "artist": "",
                 "album": "",
-                "url": "static/4902-摔得起/摔得起（前奏）-汽水-视频号.wav",
+                "url": "static/034-山脚起家 & 摔得起/摔得起（前奏）-汽水-视频号.wav",
                 "pic": "",
                 "lyric": "",
                 "platform": [
@@ -570,16 +570,16 @@
                     "视频号": "2026.08.13"
                 },
                 "source": "local",
-                "url_id": "c1bd9b8c2aff291ad11be274959d7320",
+                "url_id": "e49a8a5cc565019977b7a775d2095826",
                 "pic_id": "",
                 "lyric_id": ""
             },
             {
-                "id": "7c7f291f7ae1eaa37a3f0a6edc8962e3",
+                "id": "8091efb6e1b760cef7f0d1c545bb3502",
                 "name": "摔得起（间奏）",
                 "artist": "",
                 "album": "",
-                "url": "static/4902-摔得起/摔得起（间奏）-汽水.wav",
+                "url": "static/034-山脚起家 & 摔得起/摔得起（间奏）-汽水.wav",
                 "pic": "",
                 "lyric": "",
                 "platform": [
@@ -590,16 +590,58 @@
                     "汽水": "2026.08.13"
                 },
                 "source": "local",
-                "url_id": "7c7f291f7ae1eaa37a3f0a6edc8962e3",
+                "url_id": "8091efb6e1b760cef7f0d1c545bb3502",
                 "pic_id": "",
                 "lyric_id": ""
             },
             {
-                "id": "9cf521dcad30158419365e1eb426fa43",
+                "id": "e0a8b6d3fc0bf26cc360796e27b1c439",
+                "name": "别等（前奏）",
+                "artist": "",
+                "album": "",
+                "url": "static/035-好好吃饭 & 别等/别等（前奏）-汽水-视频号.wav",
+                "pic": "",
+                "lyric": "",
+                "platform": [
+                    "汽水",
+                    "视频号"
+                ],
+                "update": "",
+                "platform_dates": {
+                    "汽水": "2026.08.15",
+                    "视频号": "2026.08.17"
+                },
+                "source": "local",
+                "url_id": "e0a8b6d3fc0bf26cc360796e27b1c439",
+                "pic_id": "",
+                "lyric_id": ""
+            },
+            {
+                "id": "c38098a4f723c84748b110d7665d558c",
+                "name": "别等（间奏）",
+                "artist": "",
+                "album": "",
+                "url": "static/035-好好吃饭 & 别等/别等（间奏）-汽水.wav",
+                "pic": "",
+                "lyric": "",
+                "platform": [
+                    "汽水"
+                ],
+                "update": "",
+                "platform_dates": {
+                    "汽水": "2026.08.15"
+                },
+                "source": "local",
+                "url_id": "c38098a4f723c84748b110d7665d558c",
+                "pic_id": "",
+                "lyric_id": ""
+            },
+            {
+                "id": "98a5e59496934047550fb67892c928e8",
                 "name": "好好吃饭（间奏）",
                 "artist": "",
                 "album": "",
-                "url": "static/5001-好好吃饭/好好吃饭（间奏）-汽水-视频号.wav",
+                "url": "static/035-好好吃饭 & 别等/好好吃饭（间奏）-汽水-视频号.wav",
                 "pic": "",
                 "lyric": "",
                 "platform": [
@@ -612,90 +654,48 @@
                     "视频号": "2026.08.15"
                 },
                 "source": "local",
-                "url_id": "9cf521dcad30158419365e1eb426fa43",
+                "url_id": "98a5e59496934047550fb67892c928e8",
                 "pic_id": "",
                 "lyric_id": ""
             },
             {
-                "id": "23a5fd5e26e55ee4de484eec15173ada",
-                "name": "别等（前奏）",
-                "artist": "",
-                "album": "",
-                "url": "static/5002-别等/别等（前奏）-汽水-视频号.wav",
-                "pic": "",
-                "lyric": "",
-                "platform": [
-                    "汽水",
-                    "视频号"
-                ],
-                "update": "",
-                "platform_dates": {
-                    "汽水": "2026.08.15",
-                    "视频号": "2026.08.17"
-                },
-                "source": "local",
-                "url_id": "23a5fd5e26e55ee4de484eec15173ada",
-                "pic_id": "",
-                "lyric_id": ""
-            },
-            {
-                "id": "e27b491836b4c6123f01ff216bd4a08d",
-                "name": "别等（间奏）",
-                "artist": "",
-                "album": "",
-                "url": "static/5002-别等/别等（间奏）-汽水.wav",
-                "pic": "",
-                "lyric": "",
-                "platform": [
-                    "汽水"
-                ],
-                "update": "",
-                "platform_dates": {
-                    "汽水": "2026.08.15"
-                },
-                "source": "local",
-                "url_id": "e27b491836b4c6123f01ff216bd4a08d",
-                "pic_id": "",
-                "lyric_id": ""
-            },
-            {
-                "id": "bf3153d9a3f516b2fd296ba0794a3280",
+                "id": "04650a2533d924be50c7f31b7fef305b",
                 "name": "伞该收了(前奏)",
                 "artist": "",
                 "album": "",
-                "url": "static/5101-伞该收了/伞该收了(前奏).wav",
+                "url": "static/036-伞该收了 & 那把旧吉他/伞该收了(前奏).wav",
                 "pic": "",
                 "lyric": "",
                 "platform": [],
                 "update": "2026.08.17",
                 "platform_dates": {},
                 "source": "local",
-                "url_id": "bf3153d9a3f516b2fd296ba0794a3280",
+                "url_id": "04650a2533d924be50c7f31b7fef305b",
                 "pic_id": "",
                 "lyric_id": ""
             },
             {
-                "id": "fe465102a5931560c6e10162d216e4bd",
+                "id": "770b6dfd2f6376d152d077668a1ff333",
                 "name": "伞该收了（间奏）",
                 "artist": "",
                 "album": "",
-                "url": "static/5101-伞该收了/伞该收了（间奏）.wav",
+                "url": "static/036-伞该收了 & 那把旧吉他/伞该收了（间奏）.wav",
                 "pic": "",
                 "lyric": "",
                 "platform": [],
                 "update": "2026.08.17",
                 "platform_dates": {},
                 "source": "local",
-                "url_id": "fe465102a5931560c6e10162d216e4bd",
+                "url_id": "770b6dfd2f6376d152d077668a1ff333",
                 "pic_id": "",
                 "lyric_id": ""
             },
             {
-                "id": "a450d207d0b9839bf854afdbde275fc6",
+                "id": "a0815f94cebc2e9a94f7c40aef4abf0d",
                 "name": "那把旧吉他（间奏）",
                 "artist": "",
                 "album": "",
-                "url": "static/5102-那把旧吉他/那把旧吉他（间奏）-汽水.wav",
+                "url": "static/036-伞该收了 & 那把旧吉他/那把旧吉他（间奏）-汽水.wav",
                 "pic": "",
                 "lyric": "",
                 "platform": [
@@ -706,16 +706,16 @@
                     "汽水": "2026.08.17"
                 },
                 "source": "local",
-                "url_id": "a450d207d0b9839bf854afdbde275fc6",
+                "url_id": "a0815f94cebc2e9a94f7c40aef4abf0d",
                 "pic_id": "",
                 "lyric_id": ""
             },
             {
-                "id": "79bedc39e509c63c4352f63195d826dd",
+                "id": "6a6a1e09f14f7e349a5239b52206e3a9",
                 "name": "假热闹（前奏）",
                 "artist": "",
                 "album": "",
-                "url": "static/5200-假热闹/假热闹（前奏）-汽水.wav",
+                "url": "static/037-假热闹/假热闹（前奏）-汽水.wav",
                 "pic": "",
                 "lyric": "",
                 "platform": [
@@ -726,16 +726,16 @@
                     "汽水": "2026.08.17"
                 },
                 "source": "local",
-                "url_id": "79bedc39e509c63c4352f63195d826dd",
+                "url_id": "6a6a1e09f14f7e349a5239b52206e3a9",
                 "pic_id": "",
                 "lyric_id": ""
             },
             {
-                "id": "09b96953c38be30e62a929122f8d211a",
+                "id": "86f0c5618ff5f53075174e8e420f51de",
                 "name": "汤要慢慢熬（前奏）",
                 "artist": "",
                 "album": "",
-                "url": "static/5300-汤要慢慢熬/汤要慢慢熬（前奏）-汽水-视频号.wav",
+                "url": "static/038-汤要慢慢熬/汤要慢慢熬（前奏）-汽水-视频号.wav",
                 "pic": "",
                 "lyric": "",
                 "platform": [
@@ -748,16 +748,16 @@
                     "视频号": "2026.08.18"
                 },
                 "source": "local",
-                "url_id": "09b96953c38be30e62a929122f8d211a",
+                "url_id": "86f0c5618ff5f53075174e8e420f51de",
                 "pic_id": "",
                 "lyric_id": ""
             },
             {
-                "id": "5652a7e28f64cef497f02e550ba1c0b5",
+                "id": "01ab527204e92e7e218f489058e259a2",
                 "name": "绕回原点（前奏）",
                 "artist": "",
                 "album": "",
-                "url": "static/5400-绕回原点/绕回原点（前奏）-汽水-视频号.wav",
+                "url": "static/039-绕回原点/绕回原点（前奏）-汽水-视频号.wav",
                 "pic": "",
                 "lyric": "",
                 "platform": [
@@ -770,16 +770,16 @@
                     "视频号": "2026.08.19"
                 },
                 "source": "local",
-                "url_id": "5652a7e28f64cef497f02e550ba1c0b5",
+                "url_id": "01ab527204e92e7e218f489058e259a2",
                 "pic_id": "",
                 "lyric_id": ""
             },
             {
-                "id": "2b1c36a600b56acf67dbefd3459676b8",
+                "id": "db77ec3b191bf31318cba637c5c878c2",
                 "name": "绕回原点（间奏）",
                 "artist": "",
                 "album": "",
-                "url": "static/5400-绕回原点/绕回原点（间奏）-汽水.wav",
+                "url": "static/039-绕回原点/绕回原点（间奏）-汽水.wav",
                 "pic": "",
                 "lyric": "",
                 "platform": [
@@ -790,16 +790,16 @@
                     "汽水": "2026.08.19"
                 },
                 "source": "local",
-                "url_id": "2b1c36a600b56acf67dbefd3459676b8",
+                "url_id": "db77ec3b191bf31318cba637c5c878c2",
                 "pic_id": "",
                 "lyric_id": ""
             },
             {
-                "id": "20e438265802a32d253822752e297dc7",
+                "id": "4616fb0a4801c87631141d01b4fea4e2",
                 "name": "一针一线（前奏）",
                 "artist": "",
                 "album": "",
-                "url": "static/5501-一针一线/一针一线（前奏）-汽水.wav",
+                "url": "static/040-一针一线 & 仪式感/一针一线（前奏）-汽水.wav",
                 "pic": "",
                 "lyric": "",
                 "platform": [
@@ -810,16 +810,16 @@
                     "汽水": "2026.08.19"
                 },
                 "source": "local",
-                "url_id": "20e438265802a32d253822752e297dc7",
+                "url_id": "4616fb0a4801c87631141d01b4fea4e2",
                 "pic_id": "",
                 "lyric_id": ""
             },
             {
-                "id": "ac8d246bb48678168bed2c2aa02df245",
+                "id": "c349eb4b025985b9d32f755104920ce1",
                 "name": "一针一线（间奏）",
                 "artist": "",
                 "album": "",
-                "url": "static/5501-一针一线/一针一线（间奏）-汽水.wav",
+                "url": "static/040-一针一线 & 仪式感/一针一线（间奏）-汽水.wav",
                 "pic": "",
                 "lyric": "",
                 "platform": [
@@ -830,16 +830,16 @@
                     "汽水": "2026.08.19"
                 },
                 "source": "local",
-                "url_id": "ac8d246bb48678168bed2c2aa02df245",
+                "url_id": "c349eb4b025985b9d32f755104920ce1",
                 "pic_id": "",
                 "lyric_id": ""
             },
             {
-                "id": "188e7e0e2eed6f9d234faefa0aa603fe",
+                "id": "a102720c8c87f2e98155f776e7243421",
                 "name": "仪式感（前奏）",
                 "artist": "",
                 "album": "",
-                "url": "static/5502-仪式感/仪式感（前奏）-汽水.wav",
+                "url": "static/040-一针一线 & 仪式感/仪式感（前奏）-汽水.wav",
                 "pic": "",
                 "lyric": "",
                 "platform": [
@@ -850,16 +850,16 @@
                     "汽水": "2026.08.19"
                 },
                 "source": "local",
-                "url_id": "188e7e0e2eed6f9d234faefa0aa603fe",
+                "url_id": "a102720c8c87f2e98155f776e7243421",
                 "pic_id": "",
                 "lyric_id": ""
             },
             {
-                "id": "9f43c044028f4aab97190e81cd37fe56",
+                "id": "376f3b1b86df577192bb5b73a24a17dc",
                 "name": "仪式感（间奏）",
                 "artist": "",
                 "album": "",
-                "url": "static/5502-仪式感/仪式感（间奏）-汽水-视频号.wav",
+                "url": "static/040-一针一线 & 仪式感/仪式感（间奏）-汽水-视频号.wav",
                 "pic": "",
                 "lyric": "",
                 "platform": [
@@ -872,16 +872,16 @@
                     "视频号": "2026.08.19"
                 },
                 "source": "local",
-                "url_id": "9f43c044028f4aab97190e81cd37fe56",
+                "url_id": "376f3b1b86df577192bb5b73a24a17dc",
                 "pic_id": "",
                 "lyric_id": ""
             },
             {
-                "id": "796ac0e760dd90656c7179eafe0eb64f",
+                "id": "d180412e682d8075798df55cd1eb529a",
                 "name": "赦罪(间奏)",
                 "artist": "",
                 "album": "",
-                "url": "static/6300-赦罪/赦罪(间奏)-汽水.wav",
+                "url": "static/048-赦罪/赦罪(间奏)-汽水.wav",
                 "pic": "",
                 "lyric": "",
                 "platform": [
@@ -890,7 +890,44 @@
                 "update": "",
                 "platform_dates": {},
                 "source": "local",
-                "url_id": "796ac0e760dd90656c7179eafe0eb64f",
+                "url_id": "d180412e682d8075798df55cd1eb529a",
+                "pic_id": "",
+                "lyric_id": ""
+            },
+            {
+                "id": "d2f45ec9a3872c2f323906e1aa66b9fd",
+                "name": "6400-捞东西 (间奏)",
+                "artist": "",
+                "album": "",
+                "url": "static/049-捞东西/6400-捞东西 (间奏)-汽水.wav",
+                "pic": "",
+                "lyric": "",
+                "platform": [
+                    "汽水"
+                ],
+                "update": "",
+                "platform_dates": {},
+                "source": "local",
+                "url_id": "d2f45ec9a3872c2f323906e1aa66b9fd",
+                "pic_id": "",
+                "lyric_id": ""
+            },
+            {
+                "id": "d02d351d531a0e8ac0624ad1d33d41cb",
+                "name": "看一眼（前奏）",
+                "artist": "",
+                "album": "",
+                "url": "static/050-看一眼/看一眼（前奏）-汽水-视频号.wav",
+                "pic": "",
+                "lyric": "",
+                "platform": [
+                    "汽水",
+                    "视频号"
+                ],
+                "update": "",
+                "platform_dates": {},
+                "source": "local",
+                "url_id": "d02d351d531a0e8ac0624ad1d33d41cb",
                 "pic_id": "",
                 "lyric_id": ""
             }
