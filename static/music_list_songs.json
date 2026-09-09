@@ -1077,6 +1077,54 @@
                 "url_id": "f59e2855878d7d3fe2fe0d9b102437e0",
                 "pic_id": "f59e2855878d7d3fe2fe0d9b102437e0",
                 "lyric_id": "f59e2855878d7d3fe2fe0d9b102437e0"
+            },
+            {
+                "id": "a6be7ff1eacfd1b4d13b41afdf07a90c",
+                "name": "照不见月亮 - 悟小宝",
+                "artist": "",
+                "album": "",
+                "url": "static/059-照不见月亮/照不见月亮.mp3",
+                "pic": "static/059-照不见月亮/照不见月亮.jpeg",
+                "lyric": "",
+                "platform": [],
+                "update": "2026.09.09",
+                "platform_dates": {},
+                "source": "local",
+                "url_id": "a6be7ff1eacfd1b4d13b41afdf07a90c",
+                "pic_id": "a6be7ff1eacfd1b4d13b41afdf07a90c",
+                "lyric_id": ""
+            },
+            {
+                "id": "d6f2465eb11613725682161d2ef79962",
+                "name": "搁下就走 - 悟小宝",
+                "artist": "",
+                "album": "",
+                "url": "static/060-搁下就走/搁下就走.mp3",
+                "pic": "static/060-搁下就走/搁下就走.jpeg",
+                "lyric": "static/060-搁下就走/搁下就走.lrc",
+                "platform": [],
+                "update": "2026.09.09",
+                "platform_dates": {},
+                "source": "local",
+                "url_id": "d6f2465eb11613725682161d2ef79962",
+                "pic_id": "d6f2465eb11613725682161d2ef79962",
+                "lyric_id": "d6f2465eb11613725682161d2ef79962"
+            },
+            {
+                "id": "28612e0d1750b7d7463667c5ab41553a",
+                "name": "爱不能讨 - 悟小宝",
+                "artist": "",
+                "album": "",
+                "url": "static/061-爱不能讨/爱不能讨.mp3",
+                "pic": "static/061-爱不能讨/爱不能讨.jpeg",
+                "lyric": "static/061-爱不能讨/爱不能讨.lrc",
+                "platform": [],
+                "update": "2026.09.09",
+                "platform_dates": {},
+                "source": "local",
+                "url_id": "28612e0d1750b7d7463667c5ab41553a",
+                "pic_id": "28612e0d1750b7d7463667c5ab41553a",
+                "lyric_id": "28612e0d1750b7d7463667c5ab41553a"
             }
         ]
     }
