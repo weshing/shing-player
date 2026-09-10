@@ -823,36 +823,20 @@
                 "lyric_id": "9faa3e9a779d33f471db2312b540d503"
             },
             {
-                "id": "c90f92cb7423d7a7babe33edc1a7fcd5",
+                "id": "ad195582174b37408da420d115177d9c",
                 "name": "一块平板 - 悟小宝",
                 "artist": "",
                 "album": "",
-                "url": "static/043-安静的关注 & 一块平板/一块平板.mp3",
-                "pic": "static/043-安静的关注 & 一块平板/一块平板.jpeg",
-                "lyric": "static/043-安静的关注 & 一块平板/一块平板.lrc",
+                "url": "static/043-一块平板/一块平板.mp3",
+                "pic": "static/043-一块平板/一块平板.jpeg",
+                "lyric": "static/043-一块平板/一块平板.lrc",
                 "platform": [],
                 "update": "2026.08.24",
                 "platform_dates": {},
                 "source": "local",
-                "url_id": "c90f92cb7423d7a7babe33edc1a7fcd5",
-                "pic_id": "c90f92cb7423d7a7babe33edc1a7fcd5",
-                "lyric_id": "c90f92cb7423d7a7babe33edc1a7fcd5"
-            },
-            {
-                "id": "09ed070a1a8a4e6bdc1ca3fb0d9e52ef",
-                "name": "安静的关注 - 悟小宝",
-                "artist": "",
-                "album": "",
-                "url": "static/043-安静的关注 & 一块平板/安静的关注.mp3",
-                "pic": "",
-                "lyric": "",
-                "platform": [],
-                "update": "",
-                "platform_dates": {},
-                "source": "local",
-                "url_id": "09ed070a1a8a4e6bdc1ca3fb0d9e52ef",
-                "pic_id": "",
-                "lyric_id": ""
+                "url_id": "ad195582174b37408da420d115177d9c",
+                "pic_id": "ad195582174b37408da420d115177d9c",
+                "lyric_id": "ad195582174b37408da420d115177d9c"
             },
             {
                 "id": "ec60aa89b6bb119cbb939241ccc2c4d8",
