@@ -39,7 +39,7 @@ MUSIC_SUFFIXES = [ ".mp3", ".wma", ".m4a", ".aac", ".ogg", ".flac", ".wav" ]
 LYRIC_SUFFIX = ".lrc"
 PIC_SUFFIXES = [ ".jpg", ".jpeg", ".png" ]
 BGM_KEYWORDS = [ "伴奏", "前奏", "尾奏", "间奏" ]
-CLIP_KEYWORDS = [ "主歌", "副歌", "剪辑版" ]
+CLIP_KEYWORDS = [ "主歌", "副歌", "剪辑版", "片段" ]
 # 平台标签后缀：文件名末尾附加（可叠加多个），显示时会剥离并作为 platform 标签
 PLATFORM_SUFFIXES = [ "-汽水", "-视频号", "-抖音" ]
 # 歌曲更新日期元数据文件：{显示名: "YYYY-MM-DD"}
