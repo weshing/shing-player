@@ -170,7 +170,9 @@
                     "汽水"
                 ],
                 "update": "",
-                "platform_dates": {},
+                "platform_dates": {
+                    "汽水": "2026.08.28"
+                },
                 "source": "local",
                 "url_id": "e97616448715554a42df63a49bb49dac",
                 "pic_id": "",

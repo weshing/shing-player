@@ -888,7 +888,9 @@
                     "汽水"
                 ],
                 "update": "",
-                "platform_dates": {},
+                "platform_dates": {
+                    "汽水": "2026.08.28"
+                },
                 "source": "local",
                 "url_id": "d180412e682d8075798df55cd1eb529a",
                 "pic_id": "",
