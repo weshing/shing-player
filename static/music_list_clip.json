@@ -253,6 +253,148 @@
                 "lyric_id": ""
             },
             {
+                "id": "5965f505f22e43a5a405e2d3b544f11d",
+                "name": "借来的衣裳（剪辑版）",
+                "artist": "",
+                "album": "",
+                "url": "static/063-借来的衣裳/借来的衣裳（剪辑版）-汽水.wav",
+                "pic": "",
+                "lyric": "",
+                "platform": [
+                    "汽水"
+                ],
+                "update": "",
+                "platform_dates": {
+                    "汽水": "2026.10.01"
+                },
+                "source": "local",
+                "url_id": "5965f505f22e43a5a405e2d3b544f11d",
+                "pic_id": "",
+                "lyric_id": ""
+            },
+            {
+                "id": "4fca6ff7eb16bcd166144e1e68395502",
+                "name": "两可之间（剪辑版）",
+                "artist": "",
+                "album": "",
+                "url": "static/064-两可之间/两可之间（剪辑版）-汽水.wav",
+                "pic": "",
+                "lyric": "",
+                "platform": [
+                    "汽水"
+                ],
+                "update": "",
+                "platform_dates": {
+                    "汽水": "2026.10.01"
+                },
+                "source": "local",
+                "url_id": "4fca6ff7eb16bcd166144e1e68395502",
+                "pic_id": "",
+                "lyric_id": ""
+            },
+            {
+                "id": "9b3f87af039d3aa72f65f8e46e04c070",
+                "name": "心不压秤（剪辑版）",
+                "artist": "",
+                "album": "",
+                "url": "static/066-心不压秤/心不压秤（剪辑版）-汽水-视频号.wav",
+                "pic": "",
+                "lyric": "",
+                "platform": [
+                    "汽水",
+                    "视频号"
+                ],
+                "update": "",
+                "platform_dates": {
+                    "汽水": "2026.10.01",
+                    "视频号": "2026.10.01"
+                },
+                "source": "local",
+                "url_id": "9b3f87af039d3aa72f65f8e46e04c070",
+                "pic_id": "",
+                "lyric_id": ""
+            },
+            {
+                "id": "6b52b950a20505fd22974c4c15281281",
+                "name": "那可不好说（剪辑版）",
+                "artist": "",
+                "album": "",
+                "url": "static/067-那可不好说/那可不好说（剪辑版）-汽水.wav",
+                "pic": "",
+                "lyric": "",
+                "platform": [
+                    "汽水"
+                ],
+                "update": "",
+                "platform_dates": {
+                    "汽水": "2026.10.01"
+                },
+                "source": "local",
+                "url_id": "6b52b950a20505fd22974c4c15281281",
+                "pic_id": "",
+                "lyric_id": ""
+            },
+            {
+                "id": "95391a365467c5d8342ec3e991bd4f94",
+                "name": "那些题（剪辑版）",
+                "artist": "",
+                "album": "",
+                "url": "static/068-那些题/那些题（剪辑版）-汽水.wav",
+                "pic": "",
+                "lyric": "",
+                "platform": [
+                    "汽水"
+                ],
+                "update": "",
+                "platform_dates": {
+                    "汽水": "2026.10.01"
+                },
+                "source": "local",
+                "url_id": "95391a365467c5d8342ec3e991bd4f94",
+                "pic_id": "",
+                "lyric_id": ""
+            },
+            {
+                "id": "b55dd91561b907ae2170e0ae7675c5e3",
+                "name": "海报一角（剪辑版）",
+                "artist": "",
+                "album": "",
+                "url": "static/069-海报一角/海报一角（剪辑版）-汽水.wav",
+                "pic": "",
+                "lyric": "",
+                "platform": [
+                    "汽水"
+                ],
+                "update": "",
+                "platform_dates": {
+                    "汽水": "2026.10.01"
+                },
+                "source": "local",
+                "url_id": "b55dd91561b907ae2170e0ae7675c5e3",
+                "pic_id": "",
+                "lyric_id": ""
+            },
+            {
+                "id": "78efb1889e667f5f58cfc874ca51c415",
+                "name": "卡在缝里（剪辑版）",
+                "artist": "",
+                "album": "",
+                "url": "static/070-卡在缝里/卡在缝里（剪辑版）-汽水.wav",
+                "pic": "",
+                "lyric": "",
+                "platform": [
+                    "汽水"
+                ],
+                "update": "",
+                "platform_dates": {
+                    "汽水": "2026.10.01"
+                },
+                "source": "local",
+                "url_id": "78efb1889e667f5f58cfc874ca51c415",
+                "pic_id": "",
+                "lyric_id": ""
+            },
+            {
                 "id": "3e6f4635d4fba53be128654bec35dcff",
                 "name": "没能留住（剪辑版）",
                 "artist": "",
@@ -315,6 +457,148 @@
                 },
                 "source": "local",
                 "url_id": "ab017a79afba99d3ac1aaadd04b9de47",
+                "pic_id": "",
+                "lyric_id": ""
+            },
+            {
+                "id": "bb207e0f2793b2a8ed4b549e0771597b",
+                "name": "也算团圆（截取版）",
+                "artist": "",
+                "album": "",
+                "url": "static/072-也算团圆/也算团圆（截取版）.wav",
+                "pic": "",
+                "lyric": "",
+                "platform": [],
+                "update": "2026.10.01",
+                "platform_dates": {},
+                "source": "local",
+                "url_id": "bb207e0f2793b2a8ed4b549e0771597b",
+                "pic_id": "",
+                "lyric_id": ""
+            },
+            {
+                "id": "6f2ac362a866859a66def27d3b4ca99d",
+                "name": "别人的答案（剪辑版）",
+                "artist": "",
+                "album": "",
+                "url": "static/073-别人的答案/别人的答案（剪辑版）-汽水-视频号.wav",
+                "pic": "",
+                "lyric": "",
+                "platform": [
+                    "汽水",
+                    "视频号"
+                ],
+                "update": "",
+                "platform_dates": {
+                    "汽水": "2026.10.01",
+                    "视频号": "2026.10.01"
+                },
+                "source": "local",
+                "url_id": "6f2ac362a866859a66def27d3b4ca99d",
+                "pic_id": "",
+                "lyric_id": ""
+            },
+            {
+                "id": "9b003058f72f74053b2e6605378474fc",
+                "name": "旧友（剪辑版）",
+                "artist": "",
+                "album": "",
+                "url": "static/074-旧友/旧友（剪辑版）-汽水-视频号.wav",
+                "pic": "",
+                "lyric": "",
+                "platform": [
+                    "汽水",
+                    "视频号"
+                ],
+                "update": "",
+                "platform_dates": {
+                    "汽水": "2026.10.01",
+                    "视频号": "2026.10.01"
+                },
+                "source": "local",
+                "url_id": "9b003058f72f74053b2e6605378474fc",
+                "pic_id": "",
+                "lyric_id": ""
+            },
+            {
+                "id": "340b217519dac94c192b4767667e9515",
+                "name": "两米半（剪辑版）",
+                "artist": "",
+                "album": "",
+                "url": "static/075-两米半/两米半（剪辑版）-汽水-视频号.wav",
+                "pic": "",
+                "lyric": "",
+                "platform": [
+                    "汽水",
+                    "视频号"
+                ],
+                "update": "",
+                "platform_dates": {
+                    "汽水": "2026.10.01",
+                    "视频号": "2026.10.01"
+                },
+                "source": "local",
+                "url_id": "340b217519dac94c192b4767667e9515",
+                "pic_id": "",
+                "lyric_id": ""
+            },
+            {
+                "id": "5f3042453ceb2efb943ca911726f2d31",
+                "name": "半分偏（截取版）",
+                "artist": "",
+                "album": "",
+                "url": "static/076-半分偏/半分偏（截取版）-汽水-视频号.wav",
+                "pic": "",
+                "lyric": "",
+                "platform": [
+                    "汽水",
+                    "视频号"
+                ],
+                "update": "2026.10.01",
+                "platform_dates": {
+                    "汽水": "2026.10.01",
+                    "视频号": "2026.10.01"
+                },
+                "source": "local",
+                "url_id": "5f3042453ceb2efb943ca911726f2d31",
+                "pic_id": "",
+                "lyric_id": ""
+            },
+            {
+                "id": "ef34f8829255ef260708dfd186cac4b8",
+                "name": "半分偏（截取版）",
+                "artist": "",
+                "album": "",
+                "url": "static/076-半分偏/半分偏（截取版）.wav",
+                "pic": "",
+                "lyric": "",
+                "platform": [],
+                "update": "2026.10.01",
+                "platform_dates": {},
+                "source": "local",
+                "url_id": "ef34f8829255ef260708dfd186cac4b8",
+                "pic_id": "",
+                "lyric_id": ""
+            },
+            {
+                "id": "b84f9668c7ee86efad5108093c43c513",
+                "name": "上手方圆（截取版）",
+                "artist": "",
+                "album": "",
+                "url": "static/077-上手方圆/上手方圆（截取版）-汽水-视频号.wav",
+                "pic": "",
+                "lyric": "",
+                "platform": [
+                    "汽水",
+                    "视频号"
+                ],
+                "update": "",
+                "platform_dates": {
+                    "汽水": "2026.10.01",
+                    "视频号": "2026.10.01"
+                },
+                "source": "local",
+                "url_id": "b84f9668c7ee86efad5108093c43c513",
                 "pic_id": "",
                 "lyric_id": ""
             }

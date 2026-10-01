@@ -935,6 +935,26 @@
                 "url_id": "d02d351d531a0e8ac0624ad1d33d41cb",
                 "pic_id": "",
                 "lyric_id": ""
+            },
+            {
+                "id": "a6f093af5a2418d76c37a8c3124acbed",
+                "name": "传灯（间奏）",
+                "artist": "",
+                "album": "",
+                "url": "static/062-传灯/传灯（间奏）-汽水.wav",
+                "pic": "",
+                "lyric": "",
+                "platform": [
+                    "汽水"
+                ],
+                "update": "",
+                "platform_dates": {
+                    "汽水": "2026.10.01"
+                },
+                "source": "local",
+                "url_id": "a6f093af5a2418d76c37a8c3124acbed",
+                "pic_id": "",
+                "lyric_id": ""
             }
         ]
     }
