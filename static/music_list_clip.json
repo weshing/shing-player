@@ -603,6 +603,182 @@
                 "url_id": "b84f9668c7ee86efad5108093c43c513",
                 "pic_id": "",
                 "lyric_id": ""
+            },
+            {
+                "id": "517197f5e53848a9dcde2902f04f368d",
+                "name": "泉眼清亮（剪辑版）",
+                "artist": "",
+                "album": "",
+                "url": "static/078-泉眼清亮 & 真心不包邮/泉眼清亮（剪辑版）-汽水-视频号.wav",
+                "pic": "",
+                "lyric": "",
+                "platform": [
+                    "汽水",
+                    "视频号"
+                ],
+                "update": "",
+                "platform_dates": {
+                    "汽水": "2026.10.10",
+                    "视频号": "2026.10.10"
+                },
+                "source": "local",
+                "url_id": "517197f5e53848a9dcde2902f04f368d",
+                "pic_id": "",
+                "lyric_id": ""
+            },
+            {
+                "id": "e6f69356c33c7f256910695244d39a63",
+                "name": "真心不包邮（截取版）",
+                "artist": "",
+                "album": "",
+                "url": "static/078-泉眼清亮 & 真心不包邮/真心不包邮（截取版）-汽水-视频号.wav",
+                "pic": "",
+                "lyric": "",
+                "platform": [
+                    "汽水",
+                    "视频号"
+                ],
+                "update": "",
+                "platform_dates": {
+                    "汽水": "2026.10.10",
+                    "视频号": "2026.10.10"
+                },
+                "source": "local",
+                "url_id": "e6f69356c33c7f256910695244d39a63",
+                "pic_id": "",
+                "lyric_id": ""
+            },
+            {
+                "id": "21ffa54f3b9ab1967be68047f75cca1d",
+                "name": "铁锈（截取版）",
+                "artist": "",
+                "album": "",
+                "url": "static/079-铁锈/铁锈（截取版）-汽水-视频号.wav",
+                "pic": "",
+                "lyric": "",
+                "platform": [
+                    "汽水",
+                    "视频号"
+                ],
+                "update": "",
+                "platform_dates": {
+                    "汽水": "2026.10.10",
+                    "视频号": "2026.10.10"
+                },
+                "source": "local",
+                "url_id": "21ffa54f3b9ab1967be68047f75cca1d",
+                "pic_id": "",
+                "lyric_id": ""
+            },
+            {
+                "id": "00896a1ee8e9bd05b28b9c112ad0cf6f",
+                "name": "暗角（截取版）",
+                "artist": "",
+                "album": "",
+                "url": "static/080-暗角/暗角（截取版）-汽水-视频号.wav",
+                "pic": "",
+                "lyric": "",
+                "platform": [
+                    "汽水",
+                    "视频号"
+                ],
+                "update": "",
+                "platform_dates": {
+                    "汽水": "2026.10.10",
+                    "视频号": "2026.10.10"
+                },
+                "source": "local",
+                "url_id": "00896a1ee8e9bd05b28b9c112ad0cf6f",
+                "pic_id": "",
+                "lyric_id": ""
+            },
+            {
+                "id": "dad3c62b76358aeecdb16a8e143db928",
+                "name": "划尽虚名（截取版）",
+                "artist": "",
+                "album": "",
+                "url": "static/081-划尽虚名/划尽虚名（截取版）-汽水-视频号.wav",
+                "pic": "",
+                "lyric": "",
+                "platform": [
+                    "汽水",
+                    "视频号"
+                ],
+                "update": "",
+                "platform_dates": {
+                    "汽水": "2026.10.10",
+                    "视频号": "2026.10.10"
+                },
+                "source": "local",
+                "url_id": "dad3c62b76358aeecdb16a8e143db928",
+                "pic_id": "",
+                "lyric_id": ""
+            },
+            {
+                "id": "881a137ac6526fd3221ced533a5b780f",
+                "name": "三十个秋（截取版）",
+                "artist": "",
+                "album": "",
+                "url": "static/082-三十个秋/三十个秋（截取版）-汽水-视频号.wav",
+                "pic": "",
+                "lyric": "",
+                "platform": [
+                    "汽水",
+                    "视频号"
+                ],
+                "update": "",
+                "platform_dates": {
+                    "汽水": "2026.10.10",
+                    "视频号": "2026.10.10"
+                },
+                "source": "local",
+                "url_id": "881a137ac6526fd3221ced533a5b780f",
+                "pic_id": "",
+                "lyric_id": ""
+            },
+            {
+                "id": "dd640eb5d8719ac3330c20fe33ea76a3",
+                "name": "谁先开口（截取版）",
+                "artist": "",
+                "album": "",
+                "url": "static/083-谁先开口/谁先开口（截取版）-汽水-视频号.wav",
+                "pic": "",
+                "lyric": "",
+                "platform": [
+                    "汽水",
+                    "视频号"
+                ],
+                "update": "",
+                "platform_dates": {
+                    "汽水": "2026.10.10",
+                    "视频号": "2026.10.10"
+                },
+                "source": "local",
+                "url_id": "dd640eb5d8719ac3330c20fe33ea76a3",
+                "pic_id": "",
+                "lyric_id": ""
+            },
+            {
+                "id": "83fc8fefc741f0ac43cd8bbeeab8d708",
+                "name": "寻常（剪辑版）",
+                "artist": "",
+                "album": "",
+                "url": "static/084-寻常/寻常（剪辑版）-汽水-视频号.wav",
+                "pic": "",
+                "lyric": "",
+                "platform": [
+                    "汽水",
+                    "视频号"
+                ],
+                "update": "",
+                "platform_dates": {
+                    "汽水": "2026.10.10",
+                    "视频号": "2026.10.10"
+                },
+                "source": "local",
+                "url_id": "83fc8fefc741f0ac43cd8bbeeab8d708",
+                "pic_id": "",
+                "lyric_id": ""
             }
         ]
     }
