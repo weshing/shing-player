@@ -1509,6 +1509,22 @@
                 "url_id": "b8d3cdceba9053a7a58578df4c593e10",
                 "pic_id": "b8d3cdceba9053a7a58578df4c593e10",
                 "lyric_id": "b8d3cdceba9053a7a58578df4c593e10"
+            },
+            {
+                "id": "4dd7886a41a5d41cbc094538a6e9568f",
+                "name": "磕磕绊绊 - 悟小宝",
+                "artist": "",
+                "album": "",
+                "url": "static/085-磕磕绊绊/磕磕绊绊.mp3",
+                "pic": "static/085-磕磕绊绊/磕磕绊绊.png",
+                "lyric": "static/085-磕磕绊绊/磕磕绊绊.lrc",
+                "platform": [],
+                "update": "2026.10.11",
+                "platform_dates": {},
+                "source": "local",
+                "url_id": "4dd7886a41a5d41cbc094538a6e9568f",
+                "pic_id": "4dd7886a41a5d41cbc094538a6e9568f",
+                "lyric_id": "4dd7886a41a5d41cbc094538a6e9568f"
             }
         ]
     }
